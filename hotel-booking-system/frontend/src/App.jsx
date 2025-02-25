@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { AuthProvider } from "./contexts/AuthContext";
 import BookingForm from "./components/BookingForm";
 import BookingList from "./components/BookingList";
-import BookingEdit from "./components/BookingEdit";  // import BookingEdit component
+import BookingEdit from "./components/BookingEdit";
+import AdminDashboard from "./components/AdminDashboard"; // import AdminDashboard component
 import ProtectedRoute from "./components/ProtectedRoute";
 import Login from "./components/Login";
 
@@ -46,12 +47,12 @@ function App() {
             <Route path="/booking" element={<BookingForm />} />
             <Route path="/login" element={<Login />} />
             
-            {/* Protected Route for Admin Pages */}
+            {/* Protected Route for Admin Dashboard */}
             <Route
               path="/admin"
               element={
                 <ProtectedRoute>
-                  <BookingList />
+                  <AdminDashboard />
                 </ProtectedRoute>
               }
             />

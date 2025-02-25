@@ -2012,6 +2012,6 @@ export default AdminDashboard;
 
 3) บันทึกผลการทดลอง เมื่อกดปุ่ม "สำหรับผู้ดูแลระบบ"
    ### บันทึกผลการทดลอง
-![ผลการแก้ไขข้อมูลการจอง](image-path/image.png)
+![ผลการแก้ไขข้อมูลการจอง](image-path/image.png)![Final](<Screenshot 2568-02-25 at 17.15.48.png>)
 
 
