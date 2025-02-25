@@ -568,7 +568,7 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ DELETE with status
 
-![รูปผลลัพธ์การ Delete ข้อมูล](![alt text](image-3.png))
+![รูปผลลัพธ์การ Delete ข้อมูล](![alt text](image-5.png))
 
 
 
