@@ -489,7 +489,7 @@ app.listen(port, () => {
 3. สร้าง Requests สำหรับทดสอบ:
    3.1 เพิ่ม variable เพื่อใช้งานในการทดสอบ โดยเลือกที่ Environments -> Globals
    ทำการเพิ่มชื่อ Variable เป็น baseUrl และกำหนดค่า Initial value เป็น http://localhost:3001 ดังรูป
-   ![ตั้งค่า variable](images/postman-addvariable.png) (![alt text](<Screenshot 2568-02-25 at 15.25.01.png>))
+   ![ตั้งค่า variable](images/postman-addvariable.png) 
 
 3.2 สร้าง request เพื่อทดสอบ Login ระบุ Url คือ POST: {{baseUrl}}/api/login ดังรูป
 
@@ -530,7 +530,7 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ Get ข้อมูล
 
-![รูปผลลัพธ์การ Get ข้อมูล](images path/image.png)
+![รูปผลลัพธ์การ Get ข้อมูล](images path/image.png) ![Get](<Screenshot 2568-02-25 at 15.25.01.png>)
 
 ### กรณีผลลัพธ์แจ้ง "error":"Token ไม่ถูกต้องหรือหมดอายุ" ให้ทำการ Login ใหม่ แล้วคัดลอก Token ที่ได้เพื่อเปลี่ยนค่าใน variable token
 
@@ -541,7 +541,7 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ Get ข้อมูลโดยระบุ ID
 
-![รูปผลลัพธ์การ Get ข้อมูลโดยระบุ ID](images path/image.png)
+![รูปผลลัพธ์การ Get ข้อมูลโดยระบุ ID](images path/image.png)![Get by ID](<Screenshot 2568-02-25 at 15.33.38.png>)
 
 8. สร้าง request เพื่อ Update Booking ระบุ Url คือ PUT: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
@@ -553,7 +553,7 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ PUT เพื่อแก้ไขข้อมูล (ข้อมูล comment จะต้องไม่เป็นค่า null)
 
-![รูปผลลัพธ์การ PUT ข้อมูล](images path/image.png)
+![รูปผลลัพธ์การ PUT ข้อมูล](images path/image.png)![Put](<Screenshot 2568-02-25 at 15.35.34.png>)
 
 9. สร้าง request เพื่อ Delete Booking ระบุ Url คือ DELETE: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
@@ -564,11 +564,11 @@ app.listen(port, () => {
 
 9.1 ปรับปรุงแก้ไขโค้ดเพื่อให้แสดงผลการลบเป็น status : "ลบข้อมูลสำเร็จโดย [ชื่อนักศึกษา]"
 ดังรูป
-![ผลการลบข้อมูล](images/postman-deleted-with-status.png)
+![ผลการลบข้อมูล](images/postman-deleted-with-status.png)![Del](<Screenshot 2568-02-25 at 16.07.41.png>)
 
 ### บันทึกผลลัพธ์การ DELETE with status
 
-![รูปผลลัพธ์การ Delete ข้อมูล](images path/image.png)
+![รูปผลลัพธ์การ Delete ข้อมูล](images path/image.png)![Del with status](<Screenshot 2568-02-25 at 16.25.17.png>)
 
 
 

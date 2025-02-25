@@ -182,20 +182,20 @@ app.put("/api/bookings/:id", authenticateToken, (req, res) => {
   );
 });
 
-// ลบข้อมูลการจอง (ต้องมีข้อมูการ login)
+// ลบข้อมูลการจอง (ต้องมีการ login)
 app.delete("/api/bookings/:id", authenticateToken, (req, res) => {
-  const sql = "DELETE FROM bookings WHERE id = ?";
-
-  db.run(sql, [req.params.id], function (err) {
-    if (err) {
-      return res.status(400).json({ error: err.message });
-    }
-    if (this.changes === 0) {
-      return res.status(404).json({ error: "ไม่พบข้อมูลการจอง" });
-    }
-    res.status(204).send();
+    const sql = "DELETE FROM bookings WHERE id = ?";
+  
+    db.run(sql, [req.params.id], function (err) {
+      if (err) {
+        return res.status(400).json({ error: err.message });
+      }
+      if (this.changes === 0) {
+        return res.status(404).json({ error: "ไม่พบข้อมูลการจอง" });
+      }
+      res.json({ message: "ลบข้อมูลสำเร็จโดย กฤตนัย" });
+    });
   });
-});
 
 // เริ่ม server
 app.listen(port, () => {
