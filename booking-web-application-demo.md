@@ -539,6 +539,7 @@ app.listen(port, () => {
    - Headers: Authorization: Bearer {{token}}
 
 ### /1 คือหมายเลข ID ที่ต้องการ
+![image](https://github.com/user-attachments/assets/3e2ccce3-379f-4b20-a63a-00ae05f2f442)
 
 ### บันทึกผลลัพธ์การ Get ข้อมูลโดยระบุ ID
 
