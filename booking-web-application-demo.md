@@ -496,7 +496,7 @@ app.listen(port, () => {
 ```json
 {
   "username": "admin",
-  "password": "password123"
+  "password": "admin123"
 }
 ```
 
