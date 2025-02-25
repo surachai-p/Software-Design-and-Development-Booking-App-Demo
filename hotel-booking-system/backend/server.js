@@ -194,7 +194,9 @@ app.delete("/api/bookings/:id", authenticateToken, (req, res) => {
     if (this.changes === 0) {
       return res.status(404).json({ error: "ไม่พบข้อมูลการจอง" });
     }
-    res.status(204).send();
+    res.status(200).json({
+      message: `ลบข้อมูลสำเร็จโดย Tanawat putta`
+    });
   });
 });
 
