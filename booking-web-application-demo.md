@@ -529,7 +529,7 @@ app.listen(port, () => {
   ![Get all booking](images/postman-getall.png)
 
 ### บันทึกผลลัพธ์การ Get ข้อมูล
-
+![alt text](image.png)
 ![รูปผลลัพธ์การ Get ข้อมูล](images path/image.png)
 
 ### กรณีผลลัพธ์แจ้ง "error":"Token ไม่ถูกต้องหรือหมดอายุ" ให้ทำการ Login ใหม่ แล้วคัดลอก Token ที่ได้เพื่อเปลี่ยนค่าใน variable token
@@ -540,7 +540,7 @@ app.listen(port, () => {
 ### /1 คือหมายเลข ID ที่ต้องการ
 
 ### บันทึกผลลัพธ์การ Get ข้อมูลโดยระบุ ID
-
+![alt text](image-1.png)
 ![รูปผลลัพธ์การ Get ข้อมูลโดยระบุ ID](images path/image.png)
 
 8. สร้าง request เพื่อ Update Booking ระบุ Url คือ PUT: {{baseUrl}}/api/bookings/1
@@ -552,7 +552,7 @@ app.listen(port, () => {
 ### 8.1 comment จะยังไม่ถูกปรับปรุงแก้ไข ให้ทำการแก้ไขโค้ดส่วนของการ update แล้วรันโปรแกรมใหม่อีกครั้งเพื่อทดสอบการแก้ไข
 
 ### บันทึกผลลัพธ์การ PUT เพื่อแก้ไขข้อมูล (ข้อมูล comment จะต้องไม่เป็นค่า null)
-
+![alt text](image-2.png)
 ![รูปผลลัพธ์การ PUT ข้อมูล](images path/image.png)
 
 9. สร้าง request เพื่อ Delete Booking ระบุ Url คือ DELETE: {{baseUrl}}/api/bookings/1
@@ -561,7 +561,7 @@ app.listen(port, () => {
 ### บันทึกผลลัพธ์การ DELETE
 
 ![รูปผลลัพธ์การ delete ข้อมูล](images path/image.png)
-
+![alt text](image-6.png)
 9.1 ปรับปรุงแก้ไขโค้ดเพื่อให้แสดงผลการลบเป็น status : "ลบข้อมูลสำเร็จโดย [ชื่อนักศึกษา]"
 ดังรูป
 ![ผลการลบข้อมูล](images/postman-deleted-with-status.png)
@@ -569,7 +569,7 @@ app.listen(port, () => {
 ### บันทึกผลลัพธ์การ DELETE with status
 
 ![รูปผลลัพธ์การ Delete ข้อมูล](images path/image.png)
-
+![alt text](image-5.png)
 
 
 ## ทฤษฎีที่เกี่ยวข้องกับการพัฒนาส่วน Front-end ด้วย React
