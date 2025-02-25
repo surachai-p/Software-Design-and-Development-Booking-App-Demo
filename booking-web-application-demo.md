@@ -500,7 +500,8 @@ app.listen(port, () => {
 }
 ```
 
-![ทดสอบ Login](images/postman-login.png)
+![image](https://github.com/user-attachments/assets/4f50b5ee-a25c-484d-8e6d-245799c3d545)
+
 
 4. เพิ่ม variable ชื่อ token โดยคัดลอก token ที่ได้จากขั้นตอนการ Login
    ![เพิ่ม Token](images/postman-addtoken.png)
