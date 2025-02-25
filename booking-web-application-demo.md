@@ -529,6 +529,7 @@ app.listen(port, () => {
   ![Get all booking](images/postman-getall.png)
 
 ### บันทึกผลลัพธ์การ Get ข้อมูล
+![image](https://github.com/user-attachments/assets/5c2f7b01-b792-474b-9088-a35124da6873)
 
 ![รูปผลลัพธ์การ Get ข้อมูล](images path/image.png)
 
