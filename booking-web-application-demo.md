@@ -554,6 +554,7 @@ app.listen(port, () => {
 ### 8.1 comment จะยังไม่ถูกปรับปรุงแก้ไข ให้ทำการแก้ไขโค้ดส่วนของการ update แล้วรันโปรแกรมใหม่อีกครั้งเพื่อทดสอบการแก้ไข
 
 ### บันทึกผลลัพธ์การ PUT เพื่อแก้ไขข้อมูล (ข้อมูล comment จะต้องไม่เป็นค่า null)
+![image](https://github.com/user-attachments/assets/77ae6fb7-7a4e-427e-a414-986d03eda0aa)
 
 ![รูปผลลัพธ์การ PUT ข้อมูล](images path/image.png)
 
