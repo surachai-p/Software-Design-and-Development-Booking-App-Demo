@@ -526,11 +526,8 @@ app.listen(port, () => {
 - Headers: Authorization: Bearer {{token}}
 - กำหนด initial value กับ current value
 - กดปุ่ม Save เพื่อบันทึกข้อมูล
-  ![Get all booking](images/postman-getall.png)
-
 ### บันทึกผลลัพธ์การ Get ข้อมูล
-
-![รูปผลลัพธ์การ Get ข้อมูล](images path/image.png)
+ ![image](https://github.com/user-attachments/assets/dd83f6c7-cdb5-43d6-b8dd-ee65a02cec0a)
 
 ### กรณีผลลัพธ์แจ้ง "error":"Token ไม่ถูกต้องหรือหมดอายุ" ให้ทำการ Login ใหม่ แล้วคัดลอก Token ที่ได้เพื่อเปลี่ยนค่าใน variable token
 
@@ -541,7 +538,8 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ Get ข้อมูลโดยระบุ ID
 
-![รูปผลลัพธ์การ Get ข้อมูลโดยระบุ ID](images path/image.png)
+![image](https://github.com/user-attachments/assets/f6bf2c8e-8262-443e-ab34-ec062621652d)
+
 
 8. สร้าง request เพื่อ Update Booking ระบุ Url คือ PUT: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
@@ -553,14 +551,16 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ PUT เพื่อแก้ไขข้อมูล (ข้อมูล comment จะต้องไม่เป็นค่า null)
 
-![รูปผลลัพธ์การ PUT ข้อมูล](images path/image.png)
+![image](https://github.com/user-attachments/assets/c44b1bb4-7ae3-40d9-a0d8-d4e4d1303219)
+
 
 9. สร้าง request เพื่อ Delete Booking ระบุ Url คือ DELETE: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
 
 ### บันทึกผลลัพธ์การ DELETE
 
-![รูปผลลัพธ์การ delete ข้อมูล](images path/image.png)
+![image](https://github.com/user-attachments/assets/186eca66-d403-490c-be99-4faa3c9b41fd)
+
 
 9.1 ปรับปรุงแก้ไขโค้ดเพื่อให้แสดงผลการลบเป็น status : "ลบข้อมูลสำเร็จโดย [ชื่อนักศึกษา]"
 ดังรูป
@@ -568,7 +568,8 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ DELETE with status
 
-![รูปผลลัพธ์การ Delete ข้อมูล](images path/image.png)
+![image](https://github.com/user-attachments/assets/54e2f8be-53c1-4bc8-adb8-fc799129179a)
+
 
 
 
