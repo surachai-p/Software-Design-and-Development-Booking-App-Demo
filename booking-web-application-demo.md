@@ -553,7 +553,7 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ PUT เพื่อแก้ไขข้อมูล (ข้อมูล comment จะต้องไม่เป็นค่า null)
 
-![รูปผลลัพธ์การ PUT ข้อมูล](images path/image.png)![Put](<Screenshot 2568-02-25 at 15.35.34.png>)
+![รูปผลลัพธ์การ PUT ข้อมูล](images path/image.png)![Put no null](<Screenshot 2568-02-25 at 16.38.54.png>)
 
 9. สร้าง request เพื่อ Delete Booking ระบุ Url คือ DELETE: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
@@ -1040,7 +1040,7 @@ npm run dev
 ```
 1.1 กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน 
 #### บันทึกผลการรัน
-![รูปผลการรันหน้า front-end](./image-path/image.png)
+![รูปผลการรันหน้า front-end](./image-path/image.png)![FE Index](<Screenshot 2568-02-25 at 16.28.37.png>)
 1.2 กด Ctrl + c เพื่อยกเลิกการทำงาน
 
 2. ติดตั้ง dependencies ที่จำเป็น:
@@ -1051,7 +1051,7 @@ npm install -D tailwindcss@3 postcss autoprefixer
 ```
 #### axios คืออะไร ?
 ```html
-  axios คืออะไร เขียนคำตอบที่นี่
+  axios คือ HTTP requests ใน JavaScript ซึ่งสามารถ รองรับการส่งข้อมูลแบบ GET, POST, PUT, DELETE
 ```
 3. ตั้งค่า Tailwind CSS:
 
@@ -1153,12 +1153,12 @@ export default App;
 ```
 2) ทดสอบรัน โดยพิมพ์คำสั่ง npm run dev แล้วบันทึกหน้าผลการรัน
 #### บันทึกรูปผลการรัน
-![ผลการรัน](./image path/image.png)
+![ผลการรัน](./image path/image.png)![error](<Screenshot 2568-02-25 at 16.47.48.png>)
 
 3) กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน แล้วตรวจสอบ error โดยไม่ต้องหยุดการทำงานของ Application
 #### บันทึกผลการรัน
 ```html
-บันทึกสาเหตุที่ทำให้เกิด error ที่นี่
+บันทึกสาเหตุที่ทำให้เกิด error คาดว่าน่าจะไม่มี bookingForm.jsx อยู่ในโฟลเดอร์ src/components/
 ```
 ### 3.2.2 BookingForm Component
 1) สร้างไฟล์ `src/components/BookingForm.jsx`:
@@ -1442,7 +1442,7 @@ export default BookingForm;
 ![หน้าจองห้องพัก](images/front-booking.png)
 3) ทดสอบป้อนข้อมูลการจอง โดยระบุชื่อผู้จองเป็นชื่อนักศึกษา และบันทึกผลการทดลองที่มีหน้าสรุปการจอง
 #### บันทึกผลการทดลอง
-![รูปหน้าจองห้องพัก ที่แสดงข้อมูลสรุปการจอง](images-path/image.png)
+![รูปหน้าจองห้องพัก ที่แสดงข้อมูลสรุปการจอง](images-path/image.png)![alt text](<Screenshot 2568-02-25 at 16.49.59.png>) ![alt text](<Screenshot 2568-02-25 at 16.50.11.png>) ![alt text](<Screenshot 2568-02-25 at 16.50.18.png>)
 
 4) ใช้ Postman  ตรวจสอบว่ามีข้อมูลการจองเพิ่มไปหรือไม่ (หาก token หมดอายุ ต้องทำการ Login แล้วเปลี่ยนค่า token ใหม่)
 
@@ -1821,7 +1821,7 @@ export default App;
 4) ทำการ Login ด้วย user: admin  password: admin123  หากระบบทำงานถูกต้อง จะแสดงรายการจองห้องพัก
 
 ### บันทึกผลการทดลอง 
-![รูปรายการจองห้องพัก](images-path/image.png)
+![รูปรายการจองห้องพัก](images-path/image.png)![admin](<Screenshot 2568-02-25 at 16.52.42.png>)
    
    
 
@@ -1950,7 +1950,7 @@ export default BookingEdit;
 5) แก้ไขข้อมูลการจองและบันทึกรูปผลการทดลอง
    
 ### บันทึกผลการทดลอง
-![ผลการแก้ไขข้อมูลการจอง](./image-path/image.png)
+![ผลการแก้ไขข้อมูลการจอง](./image-path/image.png)![Edit booking](<Screenshot 2568-02-25 at 17.02.39.png>)
 
 ### 3.2.8 AdminDashboard Component
 

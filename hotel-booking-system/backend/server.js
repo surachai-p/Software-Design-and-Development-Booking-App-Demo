@@ -138,49 +138,42 @@ app.get("/api/bookings/:id", authenticateToken, (req, res) => {
   });
 });
 
-// อัพเดตข้อมูลการจอง (ต้องมีข้อมูฃการ login)
+// อัพเดตข้อมูลการจอง (ต้องมีการ login)
 app.put("/api/bookings/:id", authenticateToken, (req, res) => {
-  const { fullname, email, phone, checkin, checkout, roomtype, guests } =
-    req.body;
-
-  const sql = `UPDATE bookings 
-                 SET fullname = ?, email = ?, phone = ?, 
-                     checkin = ?, checkout = ?, roomtype = ?, guests = ?
-                 WHERE id = ?`;
-
-  db.run(
-    sql,
-    [
-      fullname,
-      email,
-      phone,
-      checkin,
-      checkout,
-      roomtype,
-      guests,
-      req.params.id,
-    ],
-    function (err) {
-      if (err) {
-        return res.status(400).json({ error: err.message });
-      }
-      if (this.changes === 0) {
-        return res.status(404).json({ error: "ไม่พบข้อมูลการจอง" });
-      }
-
-      db.get(
-        "SELECT * FROM bookings WHERE id = ?",
-        [req.params.id],
-        (err, row) => {
-          if (err) {
-            return res.status(400).json({ error: err.message });
-          }
-          res.json(row);
+    const { fullname, email, phone, checkin, checkout, roomtype, guests, comment } = req.body;
+    const { id } = req.params;
+  
+    const sql = `
+      UPDATE bookings 
+      SET fullname = ?, email = ?, phone = ?, 
+          checkin = ?, checkout = ?, roomtype = ?, guests = ?, comment = ?
+      WHERE id = ?
+    `;
+  
+    db.run(
+      sql,
+      [fullname, email, phone, checkin, checkout, roomtype, guests, comment, id],
+      function (err) {
+        if (err) {
+          return res.status(400).json({ error: err.message });
         }
-      );
-    }
-  );
-});
+        if (this.changes === 0) {
+          return res.status(404).json({ error: "ไม่พบข้อมูลการจอง" });
+        }
+  
+        db.get(
+          "SELECT * FROM bookings WHERE id = ?",
+          [id],
+          (err, row) => {
+            if (err) {
+              return res.status(400).json({ error: err.message });
+            }
+            res.json(row);
+          }
+        );
+      }
+    );
+  });
 
 // ลบข้อมูลการจอง (ต้องมีการ login)
 app.delete("/api/bookings/:id", authenticateToken, (req, res) => {
