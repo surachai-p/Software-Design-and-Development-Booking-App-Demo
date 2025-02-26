@@ -527,13 +527,13 @@ app.listen(port, () => {
 - กำหนด initial value กับ current value
 - กดปุ่ม Save เพื่อบันทึกข้อมูล
   ![Get all booking](images/postman-getall.png)
-  ![image](https://github.com/user-attachments/assets/85f8888b-07e8-4707-ab60-3a0dd597d043)
-![image](https://github.com/user-attachments/assets/5dca64b4-b6c8-493f-890b-35c12038f9a3)
-
-
+ 
 ### บันทึกผลลัพธ์การ Get ข้อมูล
 
 ![รูปผลลัพธ์การ Get ข้อมูล](images path/image.png)
+  ![image](https://github.com/user-attachments/assets/85f8888b-07e8-4707-ab60-3a0dd597d043)
+![image](https://github.com/user-attachments/assets/5dca64b4-b6c8-493f-890b-35c12038f9a3)
+
 
 ### กรณีผลลัพธ์แจ้ง "error":"Token ไม่ถูกต้องหรือหมดอายุ" ให้ทำการ Login ใหม่ แล้วคัดลอก Token ที่ได้เพื่อเปลี่ยนค่าใน variable token
 
