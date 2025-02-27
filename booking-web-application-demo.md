@@ -562,6 +562,7 @@ app.listen(port, () => {
    - Headers: Authorization: Bearer {{token}}
 
 ### บันทึกผลลัพธ์การ DELETE
+![image](https://github.com/user-attachments/assets/e9673f6e-d61f-4fd9-82fb-1833e65fbb17)
 
 ![รูปผลลัพธ์การ delete ข้อมูล](images path/image.png)
 
