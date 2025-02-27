@@ -570,6 +570,7 @@ app.listen(port, () => {
 ![ผลการลบข้อมูล](images/postman-deleted-with-status.png)
 
 ### บันทึกผลลัพธ์การ DELETE with status
+![image](https://github.com/user-attachments/assets/2fdc9d3e-7a09-444b-af1f-315fbe2c83e1)
 
 ![รูปผลลัพธ์การ Delete ข้อมูล](images path/image.png)
 
