@@ -1840,9 +1840,8 @@ export default App;
 
 ### บันทึกผลการทดลอง 
 ![รูปรายการจองห้องพัก](images-path/image.png)
-![image](https://github.com/user-attachments/assets/4f94bc88-0ace-46b6-87df-b5391ad4229b)
+![image](https://github.com/user-attachments/assets/98ecb5f4-3260-4aad-9d0a-48718a1aa14a)
 
-   
    
 
 ### 3.2.7 BookingEdit Component
