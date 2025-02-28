@@ -1051,6 +1051,8 @@ npm run dev
 1.1 กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน 
 #### บันทึกผลการรัน
 ![รูปผลการรันหน้า front-end](./image-path/image.png)
+![image](https://github.com/user-attachments/assets/18d47d55-492e-451c-92ed-66df3274804f)
+
 1.2 กด Ctrl + c เพื่อยกเลิกการทำงาน
 
 2. ติดตั้ง dependencies ที่จำเป็น:
