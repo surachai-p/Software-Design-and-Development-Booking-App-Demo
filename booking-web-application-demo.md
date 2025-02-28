@@ -1045,6 +1045,8 @@ npm run dev
 ```
 1.1 กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน 
 #### บันทึกผลการรัน
+![image](https://github.com/user-attachments/assets/d7b8e36a-4b1f-4bac-b42a-454c59f50720)
+
 ![รูปผลการรันหน้า front-end](./image-path/image.png)
 1.2 กด Ctrl + c เพื่อยกเลิกการทำงาน
 
