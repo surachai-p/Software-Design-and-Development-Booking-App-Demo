@@ -1840,6 +1840,8 @@ export default App;
 
 ### บันทึกผลการทดลอง 
 ![รูปรายการจองห้องพัก](images-path/image.png)
+![image](https://github.com/user-attachments/assets/4f94bc88-0ace-46b6-87df-b5391ad4229b)
+
    
    
 
