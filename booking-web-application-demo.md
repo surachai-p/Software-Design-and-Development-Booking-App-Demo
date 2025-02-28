@@ -577,6 +577,8 @@ app.listen(port, () => {
 ### บันทึกผลลัพธ์การ DELETE with status
 
 ![รูปผลลัพธ์การ Delete ข้อมูล](images path/image.png)
+![image](https://github.com/user-attachments/assets/164413ab-86e5-42d8-ae2d-622cc33e70ec)
+
 
 
 
