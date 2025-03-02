@@ -1057,6 +1057,7 @@ npm install -D tailwindcss@3 postcss autoprefixer
 #### axios คืออะไร ?
 ```html
   axios คืออะไร เขียนคำตอบที่นี่
+Axios คือไลบรารี JavaScript ที่ใช้สำหรับการทำ HTTP requests จาก Node.jsหรือ Frontend Browser มันช่วยให้การเชื่อมต่อกับ API ง่ายขึ้น ด้วยคุณสมบัติการจัดการกับ Promises, การตั้งค่า headers, การรองรับการ cancel requests, และการใช้ interceptors สามารถใช้งานได้ทั้งในฝั่ง server และ client ทำให้การส่งและรับข้อมูลจาก API เป็นเรื่องง่ายและสะดวก
 ```
 3. ตั้งค่า Tailwind CSS:
 
@@ -1158,12 +1159,14 @@ export default App;
 ```
 2) ทดสอบรัน โดยพิมพ์คำสั่ง npm run dev แล้วบันทึกหน้าผลการรัน
 #### บันทึกรูปผลการรัน
-![ผลการรัน](./image path/image.png)
+![![image](https://github.com/user-attachments/assets/71793503-1f2e-4012-a3c4-641acd7c2f5e)]
+
 
 3) กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน แล้วตรวจสอบ error โดยไม่ต้องหยุดการทำงานของ Application
 #### บันทึกผลการรัน
 ```html
 บันทึกสาเหตุที่ทำให้เกิด error ที่นี่
+ปัญหานี้อาจเกิดจากหลายสาเหตุรวมกัน เช่น ไฟล์ BookingForm.jsx ไม่ได้อยู่ในไดเรกทอรี src/components, ชื่อไฟล์หรือเส้นทางที่ระบุในการนำเข้าไม่ตรงกับไฟล์จริง (กรณีตัวพิมพ์ใหญ่พิมพ์เล็กมีความสำคัญ), หรือไฟล์ที่นำเข้าอาจมีนามสกุลที่ผิด ตรวจสอบและแก้ไขตำแหน่งไฟล์ ชื่อไฟล์ และเส้นทางในไฟล์ App.jsx ให้ถูกต้องก็อาจจะแก้ไขปัญหานี้ได้
 ```
 ### 3.2.2 BookingForm Component
 1) สร้างไฟล์ `src/components/BookingForm.jsx`:
