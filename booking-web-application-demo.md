@@ -2022,6 +2022,7 @@ export default AdminDashboard;
 
 3) บันทึกผลการทดลอง เมื่อกดปุ่ม "สำหรับผู้ดูแลระบบ"
    ### บันทึกผลการทดลอง
-![ผลการแก้ไขข้อมูลการจอง](image-path/image.png)
+![![image](https://github.com/user-attachments/assets/bd5bf95a-e227-4c5c-aa7e-08384884bd86)]
+
 
 
