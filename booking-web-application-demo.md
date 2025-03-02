@@ -530,7 +530,7 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ Get ข้อมูล
 
-![รูปผลลัพธ์การ Get ข้อมูล](images path/image.png)
+![รูปผลลัพธ์การ Get ข้อมูล](![alt text](image.png))
 
 ### กรณีผลลัพธ์แจ้ง "error":"Token ไม่ถูกต้องหรือหมดอายุ" ให้ทำการ Login ใหม่ แล้วคัดลอก Token ที่ได้เพื่อเปลี่ยนค่าใน variable token
 
@@ -541,7 +541,7 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ Get ข้อมูลโดยระบุ ID
 
-![รูปผลลัพธ์การ Get ข้อมูลโดยระบุ ID](images path/image.png)
+![รูปผลลัพธ์การ Get ข้อมูลโดยระบุ ID](![alt text](image-1.png))
 
 8. สร้าง request เพื่อ Update Booking ระบุ Url คือ PUT: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
@@ -553,14 +553,14 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ PUT เพื่อแก้ไขข้อมูล (ข้อมูล comment จะต้องไม่เป็นค่า null)
 
-![รูปผลลัพธ์การ PUT ข้อมูล](images path/image.png)
+![รูปผลลัพธ์การ PUT ข้อมูล](![alt text](image-2.png))
 
 9. สร้าง request เพื่อ Delete Booking ระบุ Url คือ DELETE: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
 
 ### บันทึกผลลัพธ์การ DELETE
 
-![รูปผลลัพธ์การ delete ข้อมูล](images path/image.png)
+![รูปผลลัพธ์การ delete ข้อมูล](![alt text](image-6.png))
 
 9.1 ปรับปรุงแก้ไขโค้ดเพื่อให้แสดงผลการลบเป็น status : "ลบข้อมูลสำเร็จโดย [ชื่อนักศึกษา]"
 ดังรูป
@@ -568,7 +568,7 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ DELETE with status
 
-![รูปผลลัพธ์การ Delete ข้อมูล](images path/image.png)
+![รูปผลลัพธ์การ Delete ข้อมูล](![alt text](image-5.png))
 
 
 
@@ -1040,7 +1040,7 @@ npm run dev
 ```
 1.1 กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน 
 #### บันทึกผลการรัน
-![รูปผลการรันหน้า front-end](./image-path/image.png)
+![รูปผลการรันหน้า front-end](![alt text](image-7.png))
 1.2 กด Ctrl + c เพื่อยกเลิกการทำงาน
 
 2. ติดตั้ง dependencies ที่จำเป็น:
@@ -1051,7 +1051,7 @@ npm install -D tailwindcss@3 postcss autoprefixer
 ```
 #### axios คืออะไร ?
 ```html
-  axios คืออะไร เขียนคำตอบที่นี่
+  axios คือ ไลบรารี่ javascript ไว้ใช้ทำHTTP requests ไปเซิร์ฟเวอร์ 
 ```
 3. ตั้งค่า Tailwind CSS:
 
@@ -1153,12 +1153,22 @@ export default App;
 ```
 2) ทดสอบรัน โดยพิมพ์คำสั่ง npm run dev แล้วบันทึกหน้าผลการรัน
 #### บันทึกรูปผลการรัน
-![ผลการรัน](./image path/image.png)
+![ผลการรัน](![alt text](image-8.png))
 
 3) กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน แล้วตรวจสอบ error โดยไม่ต้องหยุดการทำงานของ Application
 #### บันทึกผลการรัน
 ```html
-บันทึกสาเหตุที่ทำให้เกิด error ที่นี่
+ข้อผิดพลาดเกิดจาก Vite ไม่สามารถหาไฟล์ `BookingForm.jsx` ที่นำเข้ามาใน `App.jsx` ได้ เนื่องจาก:
+
+1. **ไฟล์ไม่อยู่ในตำแหน่งที่ถูกต้อง**: ตรวจสอบว่าไฟล์ `BookingForm.jsx` อยู่ในโฟลเดอร์ `src/components/` หรือไม่
+2. **ชื่อไฟล์ผิดพลาด**: ตรวจสอบชื่อไฟล์ให้ตรงกับที่ใช้ในคำสั่ง `import`
+3. **ไม่มีการส่งออก (export)**: ตรวจสอบว่าไฟล์ `BookingForm.jsx` มีการ export คอมโพเนนต์อย่างถูกต้อง
+
+วิธีแก้ไข:
+- ตรวจสอบเส้นทาง, ชื่อไฟล์, และการ export
+- รีสตาร์ท Vite ด้วยคำสั่ง `npm run dev` หลังแก้ไข
+
+
 ```
 ### 3.2.2 BookingForm Component
 1) สร้างไฟล์ `src/components/BookingForm.jsx`:
@@ -1442,7 +1452,7 @@ export default BookingForm;
 ![หน้าจองห้องพัก](images/front-booking.png)
 3) ทดสอบป้อนข้อมูลการจอง โดยระบุชื่อผู้จองเป็นชื่อนักศึกษา และบันทึกผลการทดลองที่มีหน้าสรุปการจอง
 #### บันทึกผลการทดลอง
-![รูปหน้าจองห้องพัก ที่แสดงข้อมูลสรุปการจอง](images-path/image.png)
+![รูปหน้าจองห้องพัก ที่แสดงข้อมูลสรุปการจอง](![alt text](image-9.png))
 
 4) ใช้ Postman  ตรวจสอบว่ามีข้อมูลการจองเพิ่มไปหรือไม่ (หาก token หมดอายุ ต้องทำการ Login แล้วเปลี่ยนค่า token ใหม่)
 
@@ -1821,7 +1831,7 @@ export default App;
 4) ทำการ Login ด้วย user: admin  password: admin123  หากระบบทำงานถูกต้อง จะแสดงรายการจองห้องพัก
 
 ### บันทึกผลการทดลอง 
-![รูปรายการจองห้องพัก](images-path/image.png)
+![รูปรายการจองห้องพัก](![alt text](image-10.png))
    
    
 
@@ -1950,8 +1960,9 @@ export default BookingEdit;
 5) แก้ไขข้อมูลการจองและบันทึกรูปผลการทดลอง
    
 ### บันทึกผลการทดลอง
-![ผลการแก้ไขข้อมูลการจอง](./image-path/image.png)
-
+![ผลการแก้ไขข้อมูลการจอง](![alt text](image-11.png))
+[![alt text](image-12.png)]
+[![alt text](image-13.png)]
 ### 3.2.8 AdminDashboard Component
 
 1.) สร้างไฟล์ `src/components/AdminDashboard.jsx`:
@@ -2012,6 +2023,6 @@ export default AdminDashboard;
 
 3) บันทึกผลการทดลอง เมื่อกดปุ่ม "สำหรับผู้ดูแลระบบ"
    ### บันทึกผลการทดลอง
-![ผลการแก้ไขข้อมูลการจอง](image-path/image.png)
+![ผลการแก้ไขข้อมูลการจอง](![alt text](image-14.png))
 
 
