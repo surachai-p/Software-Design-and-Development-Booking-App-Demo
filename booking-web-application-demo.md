@@ -1160,11 +1160,22 @@ export default App;
 ```
 2) ทดสอบรัน โดยพิมพ์คำสั่ง npm run dev แล้วบันทึกหน้าผลการรัน
 #### บันทึกรูปผลการรัน
+![image](https://github.com/user-attachments/assets/8d9a4ed6-056c-4f70-b833-0e366022d9e5)
 ![ผลการรัน](./image path/image.png)
 
 3) กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน แล้วตรวจสอบ error โดยไม่ต้องหยุดการทำงานของ Application
+![image](https://github.com/user-attachments/assets/fcab9943-4350-45d7-b1fc-0d5e44c5c885)
 #### บันทึกผลการรัน
 ```html
+[plugin:vite:import-analysis] Failed to resolve import "./components/BookingForm" from "src/App.jsx". Does the file exist?
+C:/Users/nawap/OneDrive/Desktop/worksuricha/hotel-booking-system/frontend/src/App.jsx:3:24
+17 |  import React from "react";
+18 |  import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+19 |  import BookingForm from "./components/BookingForm";
+   |                         ^
+20 |
+21 |  function App() {
+22 |      return /* @__PURE__ */ jsxDEV(Router, { children: /* @__PURE__ */ jsxDEV("div", { className: "min-h-screen bg-gray-100", children: [
 บันทึกสาเหตุที่ทำให้เกิด error ที่นี่
 ```
 ### 3.2.2 BookingForm Component
@@ -1449,6 +1460,8 @@ export default BookingForm;
 ![หน้าจองห้องพัก](images/front-booking.png)
 3) ทดสอบป้อนข้อมูลการจอง โดยระบุชื่อผู้จองเป็นชื่อนักศึกษา และบันทึกผลการทดลองที่มีหน้าสรุปการจอง
 #### บันทึกผลการทดลอง
+![image](https://github.com/user-attachments/assets/aa53952a-e132-40b0-8e24-431d227cbc6c)
+![image](https://github.com/user-attachments/assets/fdb08b73-0cb1-498d-a5e5-859877d39370)
 ![รูปหน้าจองห้องพัก ที่แสดงข้อมูลสรุปการจอง](images-path/image.png)
 
 4) ใช้ Postman  ตรวจสอบว่ามีข้อมูลการจองเพิ่มไปหรือไม่ (หาก token หมดอายุ ต้องทำการ Login แล้วเปลี่ยนค่า token ใหม่)
