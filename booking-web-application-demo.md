@@ -1167,6 +1167,11 @@ export default App;
 #### บันทึกผลการรัน
 ```html
 บันทึกสาเหตุที่ทำให้เกิด error ที่นี่
+1. ไฟล์ BookingForm.jsx ไม่มีอยู่จริง
+2. ชื่อไฟล์ไม่ตรงกัน (Case Sensitive)
+3. Path การ Import ไม่ถูกต้อง
+4. ไฟล์ BookingForm.jsx ไม่มี export default
+5. ปัญหาจาก Vite Cache
 ```
 ### 3.2.2 BookingForm Component
 1) สร้างไฟล์ `src/components/BookingForm.jsx`:
