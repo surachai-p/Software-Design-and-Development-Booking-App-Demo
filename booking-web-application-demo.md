@@ -530,7 +530,8 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ Get ข้อมูล
 
-![รูปผลลัพธ์การ Get ข้อมูล](images path/image.png)
+![![{B9E9B505-3B9D-4F3C-9E21-4449BFA02910}](https://github.com/user-attachments/assets/fbb605dc-6c98-4ba4-a810-09143854f8f6)
+]
 
 ### กรณีผลลัพธ์แจ้ง "error":"Token ไม่ถูกต้องหรือหมดอายุ" ให้ทำการ Login ใหม่ แล้วคัดลอก Token ที่ได้เพื่อเปลี่ยนค่าใน variable token
 
