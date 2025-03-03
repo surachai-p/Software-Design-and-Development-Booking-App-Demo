@@ -1057,7 +1057,8 @@ npm install -D tailwindcss@3 postcss autoprefixer
 ```
 #### axios คืออะไร ?
 ```html
-  axios คืออะไร เขียนคำตอบที่นี่
+  Axios คือไลบรารี JavaScript ที่ใช้สำหรับทำ HTTP Requests (เช่น GET, POST, PUT, DELETE) ไปยังเซิร์ฟเวอร์ โดยรองรับทั้ง Browser และ Node.js
+ถูกใช้แทน fetch API เนื่องจากมีฟีเจอร์ที่ใช้งานง่าย
 ```
 3. ตั้งค่า Tailwind CSS:
 
@@ -1959,7 +1960,8 @@ export default BookingEdit;
 5) แก้ไขข้อมูลการจองและบันทึกรูปผลการทดลอง
    
 ### บันทึกผลการทดลอง
-![ผลการแก้ไขข้อมูลการจอง](./image-path/image.png)
+![ผลการแก้ไขข้อมูลการจอง]![image](https://github.com/user-attachments/assets/008184a4-e97e-40f3-82ee-e608cdf6ec19)
+
 
 ### 3.2.8 AdminDashboard Component
 
@@ -2021,6 +2023,7 @@ export default AdminDashboard;
 
 3) บันทึกผลการทดลอง เมื่อกดปุ่ม "สำหรับผู้ดูแลระบบ"
    ### บันทึกผลการทดลอง
-![ผลการแก้ไขข้อมูลการจอง](image-path/image.png)
+![ผลการแก้ไขข้อมูลการจอง]![image](https://github.com/user-attachments/assets/57641c30-d656-4a58-9665-f5e643883122)
+
 
 
