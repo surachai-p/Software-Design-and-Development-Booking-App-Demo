@@ -529,7 +529,7 @@ app.listen(port, () => {
   ![Get all booking](images/postman-getall.png)
 
 ### บันทึกผลลัพธ์การ Get ข้อมูล
-
+![alt text](image.png)
 ![รูปผลลัพธ์การ Get ข้อมูล](images path/image.png)
 
 ### กรณีผลลัพธ์แจ้ง "error":"Token ไม่ถูกต้องหรือหมดอายุ" ให้ทำการ Login ใหม่ แล้วคัดลอก Token ที่ได้เพื่อเปลี่ยนค่าใน variable token
@@ -540,7 +540,7 @@ app.listen(port, () => {
 ### /1 คือหมายเลข ID ที่ต้องการ
 
 ### บันทึกผลลัพธ์การ Get ข้อมูลโดยระบุ ID
-
+![alt text](image-1.png)
 ![รูปผลลัพธ์การ Get ข้อมูลโดยระบุ ID](images path/image.png)
 
 8. สร้าง request เพื่อ Update Booking ระบุ Url คือ PUT: {{baseUrl}}/api/bookings/1
@@ -552,7 +552,7 @@ app.listen(port, () => {
 ### 8.1 comment จะยังไม่ถูกปรับปรุงแก้ไข ให้ทำการแก้ไขโค้ดส่วนของการ update แล้วรันโปรแกรมใหม่อีกครั้งเพื่อทดสอบการแก้ไข
 
 ### บันทึกผลลัพธ์การ PUT เพื่อแก้ไขข้อมูล (ข้อมูล comment จะต้องไม่เป็นค่า null)
-
+![alt text](image-2.png)
 ![รูปผลลัพธ์การ PUT ข้อมูล](images path/image.png)
 
 9. สร้าง request เพื่อ Delete Booking ระบุ Url คือ DELETE: {{baseUrl}}/api/bookings/1
@@ -561,7 +561,7 @@ app.listen(port, () => {
 ### บันทึกผลลัพธ์การ DELETE
 
 ![รูปผลลัพธ์การ delete ข้อมูล](images path/image.png)
-
+![alt text](image-6.png)
 9.1 ปรับปรุงแก้ไขโค้ดเพื่อให้แสดงผลการลบเป็น status : "ลบข้อมูลสำเร็จโดย [ชื่อนักศึกษา]"
 ดังรูป
 ![ผลการลบข้อมูล](images/postman-deleted-with-status.png)
@@ -569,7 +569,7 @@ app.listen(port, () => {
 ### บันทึกผลลัพธ์การ DELETE with status
 
 ![รูปผลลัพธ์การ Delete ข้อมูล](images path/image.png)
-
+![alt text](image-5.png)
 
 
 ## ทฤษฎีที่เกี่ยวข้องกับการพัฒนาส่วน Front-end ด้วย React
@@ -1041,6 +1041,7 @@ npm run dev
 1.1 กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน 
 #### บันทึกผลการรัน
 ![รูปผลการรันหน้า front-end](./image-path/image.png)
+![alt text](image-7.png)
 1.2 กด Ctrl + c เพื่อยกเลิกการทำงาน
 
 2. ติดตั้ง dependencies ที่จำเป็น:
@@ -1051,7 +1052,11 @@ npm install -D tailwindcss@3 postcss autoprefixer
 ```
 #### axios คืออะไร ?
 ```html
-  axios คืออะไร เขียนคำตอบที่นี่
+  axios คืออะไร เขียนคำตอบที่นี่ Axios คือ ไลบรารีที่ใช้สำหรับการทำ HTTP requests ใน JavaScript ซึ่งช่วยให้เราสามารถส่งคำขอไปยังเซิร์ฟเวอร์หรือ API ได้อย่างสะดวก และสามารถจัดการกับการตอบกลับที่ได้รับจากเซิร์ฟเวอร์ได้ง่าย ๆ
+
+โดยพื้นฐานแล้ว, HTTP requests คือ การที่แอปพลิเคชันของเราส่งคำขอไปยังเซิร์ฟเวอร์เพื่อดึงข้อมูล หรือส่งข้อมูลไปยังเซิร์ฟเวอร์ เช่น การดึงข้อมูลจากฐานข้อมูล หรือการส่งข้อมูลที่ผู้ใช้กรอกในฟอร์มไปที่เซิร์ฟเวอร์เพื่อบันทึก
+
+ในยุคของการพัฒนาเว็บแอปพลิเคชันแบบ Single Page Application (SPA) โดยใช้เฟรมเวิร์กเช่น React, Vue.js, หรือ Angular, Axios เป็นเครื่องมือที่ได้รับความนิยมสูงเพราะมันสามารถทำงานได้ดีทั้งในฝั่ง Client-Side และ Server-Side (ใน Node.js) และยังรองรับ Promise ซึ่งทำให้การจัดการคำขอและคำตอบเป็นไปได้อย่างสะดวก
 ```
 3. ตั้งค่า Tailwind CSS:
 
@@ -1154,11 +1159,13 @@ export default App;
 2) ทดสอบรัน โดยพิมพ์คำสั่ง npm run dev แล้วบันทึกหน้าผลการรัน
 #### บันทึกรูปผลการรัน
 ![ผลการรัน](./image path/image.png)
-
+![alt text](image-9.png)
 3) กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน แล้วตรวจสอบ error โดยไม่ต้องหยุดการทำงานของ Application
 #### บันทึกผลการรัน
+![alt text](image-10.png)
 ```html
-บันทึกสาเหตุที่ทำให้เกิด error ที่นี่
+บันทึกสาเหตุที่ทำให้เกิด error ที่นี่ 
+ปัญหานี้อาจเกิดจากหลายสาเหตุรวมกัน เช่น ไฟล์ BookingForm.jsx ไม่ได้อยู่ในไดเรกทอรี src/components, ชื่อไฟล์หรือเส้นทางที่ระบุในการนำเข้าไม่ตรงกับไฟล์จริง (กรณีตัวพิมพ์ใหญ่พิมพ์เล็กมีความสำคัญ), หรือไฟล์ที่นำเข้าอาจมีนามสกุลที่ผิด ตรวจสอบและแก้ไขตำแหน่งไฟล์ ชื่อไฟล์ และเส้นทางในไฟล์ App.jsx ให้ถูกต้องก็อาจจะแก้ไขปัญหานี้ได้
 ```
 ### 3.2.2 BookingForm Component
 1) สร้างไฟล์ `src/components/BookingForm.jsx`:
@@ -1443,7 +1450,7 @@ export default BookingForm;
 3) ทดสอบป้อนข้อมูลการจอง โดยระบุชื่อผู้จองเป็นชื่อนักศึกษา และบันทึกผลการทดลองที่มีหน้าสรุปการจอง
 #### บันทึกผลการทดลอง
 ![รูปหน้าจองห้องพัก ที่แสดงข้อมูลสรุปการจอง](images-path/image.png)
-
+![alt text](image-11.png)
 4) ใช้ Postman  ตรวจสอบว่ามีข้อมูลการจองเพิ่มไปหรือไม่ (หาก token หมดอายุ ต้องทำการ Login แล้วเปลี่ยนค่า token ใหม่)
 
 ### 3.2.3 AuthContext Component
@@ -1822,7 +1829,7 @@ export default App;
 
 ### บันทึกผลการทดลอง 
 ![รูปรายการจองห้องพัก](images-path/image.png)
-   
+  ![alt text](image-13.png)
    
 
 ### 3.2.7 BookingEdit Component
@@ -1951,7 +1958,7 @@ export default BookingEdit;
    
 ### บันทึกผลการทดลอง
 ![ผลการแก้ไขข้อมูลการจอง](./image-path/image.png)
-
+![alt text](image-14.png)
 ### 3.2.8 AdminDashboard Component
 
 1.) สร้างไฟล์ `src/components/AdminDashboard.jsx`:
@@ -2013,5 +2020,5 @@ export default AdminDashboard;
 3) บันทึกผลการทดลอง เมื่อกดปุ่ม "สำหรับผู้ดูแลระบบ"
    ### บันทึกผลการทดลอง
 ![ผลการแก้ไขข้อมูลการจอง](image-path/image.png)
-
+![alt text](image-15.png)
 
