@@ -531,6 +531,7 @@ app.listen(port, () => {
 ### บันทึกผลลัพธ์การ Get ข้อมูล
 
 ![รูปผลลัพธ์การ Get ข้อมูล](images path/image.png)
+![Screenshot 2025-03-04 005959](https://github.com/user-attachments/assets/e12760e0-cdaa-4142-bb05-2ffb61cd3229)
 
 ### กรณีผลลัพธ์แจ้ง "error":"Token ไม่ถูกต้องหรือหมดอายุ" ให้ทำการ Login ใหม่ แล้วคัดลอก Token ที่ได้เพื่อเปลี่ยนค่าใน variable token
 
@@ -542,6 +543,7 @@ app.listen(port, () => {
 ### บันทึกผลลัพธ์การ Get ข้อมูลโดยระบุ ID
 
 ![รูปผลลัพธ์การ Get ข้อมูลโดยระบุ ID](images path/image.png)
+![2](https://github.com/user-attachments/assets/0948a53c-3c33-46ac-bce2-3204b0154cbf)
 
 8. สร้าง request เพื่อ Update Booking ระบุ Url คือ PUT: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
@@ -554,6 +556,7 @@ app.listen(port, () => {
 ### บันทึกผลลัพธ์การ PUT เพื่อแก้ไขข้อมูล (ข้อมูล comment จะต้องไม่เป็นค่า null)
 
 ![รูปผลลัพธ์การ PUT ข้อมูล](images path/image.png)
+![3](https://github.com/user-attachments/assets/901ede86-436d-4f6f-84d8-0fd99cc07f7a)
 
 9. สร้าง request เพื่อ Delete Booking ระบุ Url คือ DELETE: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
@@ -561,14 +564,17 @@ app.listen(port, () => {
 ### บันทึกผลลัพธ์การ DELETE
 
 ![รูปผลลัพธ์การ delete ข้อมูล](images path/image.png)
+![4](https://github.com/user-attachments/assets/122b29a1-575b-40f4-ab63-b15584771d4f)
 
 9.1 ปรับปรุงแก้ไขโค้ดเพื่อให้แสดงผลการลบเป็น status : "ลบข้อมูลสำเร็จโดย [ชื่อนักศึกษา]"
 ดังรูป
 ![ผลการลบข้อมูล](images/postman-deleted-with-status.png)
 
+
 ### บันทึกผลลัพธ์การ DELETE with status
 
 ![รูปผลลัพธ์การ Delete ข้อมูล](images path/image.png)
+![4](https://github.com/user-attachments/assets/06baec97-0dd5-4dc7-a59f-bc4daa1e46ac)
 
 
 
@@ -1040,6 +1046,8 @@ npm run dev
 ```
 1.1 กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน 
 #### บันทึกผลการรัน
+![5](https://github.com/user-attachments/assets/a9f93fe3-2cbe-4add-a08f-d027a8491571)
+
 ![รูปผลการรันหน้า front-end](./image-path/image.png)
 1.2 กด Ctrl + c เพื่อยกเลิกการทำงาน
 
@@ -1049,9 +1057,9 @@ npm run dev
 npm install axios react-router-dom
 npm install -D tailwindcss@3 postcss autoprefixer
 ```
-#### axios คืออะไร ?
+#### axios คืออะไร 
 ```html
-  axios คืออะไร เขียนคำตอบที่นี่
+  axios คืออะไร ไลบรารี ที่ใช้ในการทำงานกับ HTTP requests (เช่น GET, POST, PUT, DELETE) ใน JavaScript ซึ่งมีการใช้งานอย่างแพร่หลายโดยเฉพาะในโปรเจคที่พัฒนาด้วย React, Vue.js, หรือ Node.js.
 ```
 3. ตั้งค่า Tailwind CSS:
 
@@ -1160,6 +1168,8 @@ export default App;
 ```html
 บันทึกสาเหตุที่ทำให้เกิด error ที่นี่
 ```
+![6](https://github.com/user-attachments/assets/3942f8f2-c6d6-4187-905e-0436b60eb8d3)
+
 ### 3.2.2 BookingForm Component
 1) สร้างไฟล์ `src/components/BookingForm.jsx`:
 
@@ -1443,6 +1453,7 @@ export default BookingForm;
 3) ทดสอบป้อนข้อมูลการจอง โดยระบุชื่อผู้จองเป็นชื่อนักศึกษา และบันทึกผลการทดลองที่มีหน้าสรุปการจอง
 #### บันทึกผลการทดลอง
 ![รูปหน้าจองห้องพัก ที่แสดงข้อมูลสรุปการจอง](images-path/image.png)
+![6](https://github.com/user-attachments/assets/3e184b47-c911-4b56-a5c4-7fa5992fb405)
 
 4) ใช้ Postman  ตรวจสอบว่ามีข้อมูลการจองเพิ่มไปหรือไม่ (หาก token หมดอายุ ต้องทำการ Login แล้วเปลี่ยนค่า token ใหม่)
 
@@ -1822,7 +1833,8 @@ export default App;
 
 ### บันทึกผลการทดลอง 
 ![รูปรายการจองห้องพัก](images-path/image.png)
-   
+   ![8](https://github.com/user-attachments/assets/8055c5c6-f476-4a9d-9b08-15233207459c)
+
    
 
 ### 3.2.7 BookingEdit Component
@@ -1951,6 +1963,7 @@ export default BookingEdit;
    
 ### บันทึกผลการทดลอง
 ![ผลการแก้ไขข้อมูลการจอง](./image-path/image.png)
+![9](https://github.com/user-attachments/assets/c887e022-0b40-4765-a402-2203ce836a6d)
 
 ### 3.2.8 AdminDashboard Component
 
@@ -2013,5 +2026,6 @@ export default AdminDashboard;
 3) บันทึกผลการทดลอง เมื่อกดปุ่ม "สำหรับผู้ดูแลระบบ"
    ### บันทึกผลการทดลอง
 ![ผลการแก้ไขข้อมูลการจอง](image-path/image.png)
+![10](https://github.com/user-attachments/assets/2778575f-8be4-4e3b-a157-db139afcfe96)
 
 
