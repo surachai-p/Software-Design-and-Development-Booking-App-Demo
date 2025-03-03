@@ -1,4 +1,4 @@
-# ใบงานปฏิบัติการ: การพัฒนาระบบจองห้องพักออนไลน์
+![{59DBA649-FE80-41A9-BD71-E0A15346E8DE}](https://github.com/user-attachments/assets/c4c0c5bb-1fae-4da4-a1f9-bd11d9c3022d)# ใบงานปฏิบัติการ: การพัฒนาระบบจองห้องพักออนไลน์
 
 ## วัตถุประสงค์
 
@@ -530,7 +530,8 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ Get ข้อมูล
 
-![รูปผลลัพธ์การ Get ข้อมูล](images path/image.png)
+![![{B9E9B505-3B9D-4F3C-9E21-4449BFA02910}](https://github.com/user-attachments/assets/fbb605dc-6c98-4ba4-a810-09143854f8f6)
+]
 
 ### กรณีผลลัพธ์แจ้ง "error":"Token ไม่ถูกต้องหรือหมดอายุ" ให้ทำการ Login ใหม่ แล้วคัดลอก Token ที่ได้เพื่อเปลี่ยนค่าใน variable token
 
@@ -541,7 +542,8 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ Get ข้อมูลโดยระบุ ID
 
-![รูปผลลัพธ์การ Get ข้อมูลโดยระบุ ID](images path/image.png)
+![![{EC4E53C0-878F-4E2B-B17F-E5BC0118146B}](https://github.com/user-attachments/assets/e00ae27b-0d5c-4016-86f6-ac7807ba0c60)
+]
 
 8. สร้าง request เพื่อ Update Booking ระบุ Url คือ PUT: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
@@ -553,14 +555,16 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ PUT เพื่อแก้ไขข้อมูล (ข้อมูล comment จะต้องไม่เป็นค่า null)
 
-![รูปผลลัพธ์การ PUT ข้อมูล](images path/image.png)
+![![{371BD028-DF1F-4EFC-ACCD-1FC944E92DE2}](https://github.com/user-attachments/assets/1ea411cf-108c-4e85-8a29-9035883e6623)
+]
 
 9. สร้าง request เพื่อ Delete Booking ระบุ Url คือ DELETE: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
 
 ### บันทึกผลลัพธ์การ DELETE
 
-![รูปผลลัพธ์การ delete ข้อมูล](images path/image.png)
+![![{AFD56F19-A493-4981-ABE2-BCE287BF77CF}](https://github.com/user-attachments/assets/b417e4ab-e875-4fb4-914d-9d2cbb955f0f)
+]
 
 9.1 ปรับปรุงแก้ไขโค้ดเพื่อให้แสดงผลการลบเป็น status : "ลบข้อมูลสำเร็จโดย [ชื่อนักศึกษา]"
 ดังรูป
@@ -568,7 +572,8 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ DELETE with status
 
-![รูปผลลัพธ์การ Delete ข้อมูล](images path/image.png)
+![![{40FA0CD1-73EB-429C-942D-F5BADA07F681}](https://github.com/user-attachments/assets/fb9f5949-6cf1-4152-ac15-4fd691b22c9a)
+]
 
 
 
@@ -1040,7 +1045,8 @@ npm run dev
 ```
 1.1 กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน 
 #### บันทึกผลการรัน
-![รูปผลการรันหน้า front-end](./image-path/image.png)
+![![{9A33434A-B9B5-4859-871F-E7041CA446B5}](https://github.com/user-attachments/assets/c349a4e6-337e-40ad-8bd4-e9ebcd8d0f33)
+]
 1.2 กด Ctrl + c เพื่อยกเลิกการทำงาน
 
 2. ติดตั้ง dependencies ที่จำเป็น:
@@ -1051,7 +1057,7 @@ npm install -D tailwindcss@3 postcss autoprefixer
 ```
 #### axios คืออะไร ?
 ```html
-  axios คืออะไร เขียนคำตอบที่นี่
+  axios คืออะไร เขียนคำตอบที่นี่ คือ open source JavaScript libary สำหรับ http request เรียกง่ายๆ ก็คือ ตัวที่ใช้สำหรับเชื่อมต่อกับ API Service เพื่อการรับส่งข้อมูลแบบ RESTful API โดยที่เจ้า axios จะทำหน้าที่เป็นตัวกลางในการจัดการทั้ง method, data, headers, security และอื่นๆ ที่เกี่ยวข้องกับการรับส่งข้อมูล ความเจ๋งของ axios ก็คือรองรับ Promises async/await ได้ และยังรองรับ TypeScript อีกด้วย
 ```
 3. ตั้งค่า Tailwind CSS:
 
@@ -1153,12 +1159,13 @@ export default App;
 ```
 2) ทดสอบรัน โดยพิมพ์คำสั่ง npm run dev แล้วบันทึกหน้าผลการรัน
 #### บันทึกรูปผลการรัน
-![ผลการรัน](./image path/image.png)
+![![{9F98875C-F462-4D73-8E49-CACD7B5E4DEC}](https://github.com/user-attachments/assets/5f8fc58d-91b1-439a-a326-e8891c732834)
+]
 
 3) กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน แล้วตรวจสอบ error โดยไม่ต้องหยุดการทำงานของ Application
 #### บันทึกผลการรัน
 ```html
-บันทึกสาเหตุที่ทำให้เกิด error ที่นี่
+บันทึกสาเหตุที่ทำให้เกิด error ที่นี่ ไฟล์ BookingForm.jsx หรือ BookingForm.js ไม่มีอยู่ในที่ที่กำหนด
 ```
 ### 3.2.2 BookingForm Component
 1) สร้างไฟล์ `src/components/BookingForm.jsx`:
@@ -1442,7 +1449,10 @@ export default BookingForm;
 ![หน้าจองห้องพัก](images/front-booking.png)
 3) ทดสอบป้อนข้อมูลการจอง โดยระบุชื่อผู้จองเป็นชื่อนักศึกษา และบันทึกผลการทดลองที่มีหน้าสรุปการจอง
 #### บันทึกผลการทดลอง
-![รูปหน้าจองห้องพัก ที่แสดงข้อมูลสรุปการจอง](images-path/image.png)
+![![{1B153634-1E4F-42AF-A0A3-16428E44DD65}](https://github.com/user-attachments/assets/0ef4d9c3-6d42-48bb-bafa-dd21c1a1de2b)
+] 
+![{EA581CCF-77D4-4051-8814-32036299E590}](https://github.com/user-attachments/assets/c778c115-025f-4f38-8894-06f5ab57c892)
+
 
 4) ใช้ Postman  ตรวจสอบว่ามีข้อมูลการจองเพิ่มไปหรือไม่ (หาก token หมดอายุ ต้องทำการ Login แล้วเปลี่ยนค่า token ใหม่)
 
@@ -1821,7 +1831,8 @@ export default App;
 4) ทำการ Login ด้วย user: admin  password: admin123  หากระบบทำงานถูกต้อง จะแสดงรายการจองห้องพัก
 
 ### บันทึกผลการทดลอง 
-![รูปรายการจองห้องพัก](images-path/image.png)
+![![{7BACD021-4AB7-4F5F-B8AF-FD89EA4AF75B}](https://github.com/user-attachments/assets/aaee125c-334c-4199-a236-67633f088cab)
+]
    
    
 
@@ -1950,7 +1961,9 @@ export default BookingEdit;
 5) แก้ไขข้อมูลการจองและบันทึกรูปผลการทดลอง
    
 ### บันทึกผลการทดลอง
-![ผลการแก้ไขข้อมูลการจอง](./image-path/image.png)
+![{9FEACCD9-6CA0-452E-9DFD-1C56CFB8C8EF}](https://github.com/user-attachments/assets/771d17ad-2682-4769-8e39-1f450bcca428)
+![{4E4BC0EC-BA6B-432B-82AC-ED64A7C5791B}](https://github.com/user-attachments/assets/585148a8-4da9-490d-ac1a-bdbfde527099)
+
 
 ### 3.2.8 AdminDashboard Component
 
@@ -2012,6 +2025,7 @@ export default AdminDashboard;
 
 3) บันทึกผลการทดลอง เมื่อกดปุ่ม "สำหรับผู้ดูแลระบบ"
    ### บันทึกผลการทดลอง
-![ผลการแก้ไขข้อมูลการจอง](image-path/image.png)
+![![{91956440-0853-4111-8B99-4063DF62ECCB}](https://github.com/user-attachments/assets/26e17866-5527-4321-8aa1-7923e8dcf0d3)
+]
 
 
