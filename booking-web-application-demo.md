@@ -1159,12 +1159,13 @@ export default App;
 ```
 2) ทดสอบรัน โดยพิมพ์คำสั่ง npm run dev แล้วบันทึกหน้าผลการรัน
 #### บันทึกรูปผลการรัน
-![ผลการรัน](./image path/image.png)
+![image](https://github.com/user-attachments/assets/518c4354-efd9-4867-a659-91dd0ce9b9e8)
+
 
 3) กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน แล้วตรวจสอบ error โดยไม่ต้องหยุดการทำงานของ Application
 #### บันทึกผลการรัน
 ```html
-บันทึกสาเหตุที่ทำให้เกิด error ที่นี่
+เกิดจาก bookingform.jsx อยู่ในFolder src/components/
 ```
 ### 3.2.2 BookingForm Component
 1) สร้างไฟล์ `src/components/BookingForm.jsx`:
@@ -1445,10 +1446,13 @@ export default BookingForm;
 
 2) กดเลือกเมนู "จองห้องพัก" หรือปุ่ม "จองห้องพักเลย" หากหน้าเว็บไม่แสดงหน้าฟอร์มการจองห้องพัก ให้ลองทำการ refresh หน้าเว็บ เพื่อให้ระบบแสดงหน้าเว็บดังตัวอย่าง
 
-![หน้าจองห้องพัก](images/front-booking.png)
+![image](https://github.com/user-attachments/assets/199c8a39-7d28-4bba-ada9-bedb8273d926)
+
 3) ทดสอบป้อนข้อมูลการจอง โดยระบุชื่อผู้จองเป็นชื่อนักศึกษา และบันทึกผลการทดลองที่มีหน้าสรุปการจอง
 #### บันทึกผลการทดลอง
-![รูปหน้าจองห้องพัก ที่แสดงข้อมูลสรุปการจอง](images-path/image.png)
+![image](https://github.com/user-attachments/assets/069ca104-3801-4fe1-aa4f-faead00a3f52)![image](https://github.com/user-attachments/assets/e0ac9a2e-8d51-441a-aa92-638ae5d33337)
+
+
 
 4) ใช้ Postman  ตรวจสอบว่ามีข้อมูลการจองเพิ่มไปหรือไม่ (หาก token หมดอายุ ต้องทำการ Login แล้วเปลี่ยนค่า token ใหม่)
 
@@ -1827,7 +1831,8 @@ export default App;
 4) ทำการ Login ด้วย user: admin  password: admin123  หากระบบทำงานถูกต้อง จะแสดงรายการจองห้องพัก
 
 ### บันทึกผลการทดลอง 
-![รูปรายการจองห้องพัก](images-path/image.png)
+![image](https://github.com/user-attachments/assets/edde83e6-6f9a-4d89-a96b-d2fefe97346d)
+
    
    
 
@@ -1956,7 +1961,8 @@ export default BookingEdit;
 5) แก้ไขข้อมูลการจองและบันทึกรูปผลการทดลอง
    
 ### บันทึกผลการทดลอง
-![ผลการแก้ไขข้อมูลการจอง](./image-path/image.png)
+![image](https://github.com/user-attachments/assets/deac20ca-95ba-45a0-9250-39c68ab41b41)
+
 
 ### 3.2.8 AdminDashboard Component
 
@@ -2018,6 +2024,7 @@ export default AdminDashboard;
 
 3) บันทึกผลการทดลอง เมื่อกดปุ่ม "สำหรับผู้ดูแลระบบ"
    ### บันทึกผลการทดลอง
-![ผลการแก้ไขข้อมูลการจอง](image-path/image.png)
+![image](https://github.com/user-attachments/assets/23e0c30b-55f1-42c3-ab94-c77e88313605)
+
 
 
