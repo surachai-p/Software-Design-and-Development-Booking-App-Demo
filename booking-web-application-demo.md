@@ -555,14 +555,16 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ PUT เพื่อแก้ไขข้อมูล (ข้อมูล comment จะต้องไม่เป็นค่า null)
 
-![รูปผลลัพธ์การ PUT ข้อมูล](images path/image.png)
+![![{371BD028-DF1F-4EFC-ACCD-1FC944E92DE2}](https://github.com/user-attachments/assets/1ea411cf-108c-4e85-8a29-9035883e6623)
+]
 
 9. สร้าง request เพื่อ Delete Booking ระบุ Url คือ DELETE: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
 
 ### บันทึกผลลัพธ์การ DELETE
 
-![รูปผลลัพธ์การ delete ข้อมูล](images path/image.png)
+![![{AFD56F19-A493-4981-ABE2-BCE287BF77CF}](https://github.com/user-attachments/assets/b417e4ab-e875-4fb4-914d-9d2cbb955f0f)
+]
 
 9.1 ปรับปรุงแก้ไขโค้ดเพื่อให้แสดงผลการลบเป็น status : "ลบข้อมูลสำเร็จโดย [ชื่อนักศึกษา]"
 ดังรูป
@@ -570,7 +572,8 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ DELETE with status
 
-![รูปผลลัพธ์การ Delete ข้อมูล](images path/image.png)
+![![{40FA0CD1-73EB-429C-942D-F5BADA07F681}](https://github.com/user-attachments/assets/fb9f5949-6cf1-4152-ac15-4fd691b22c9a)
+]
 
 
 
