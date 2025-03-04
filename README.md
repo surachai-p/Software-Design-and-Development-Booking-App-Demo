@@ -1,3 +1,59 @@
+# Software Design and Development - Booking App Demo
+
+## วิธีการใช้งาน
+
+1.  **Clone Repository:**
+    
+    เปิด Terminal และไปยังไดเรกทอรีที่คุณต้องการเก็บโปรเจกต์ จากนั้นรันคำสั่ง:
+    
+    ```bash
+    git clone [https://github.com/Kritternai/Software-Design-and-Development-Booking-App-Demo.git](https://github.com/Kritternai/Software-Design-and-Development-Booking-App-Demo.git)
+    ```
+    
+2.  **เริ่มต้น Backend:**
+    
+    ไปยังไดเรกทอรี `backend` และเริ่มต้นเซิร์ฟเวอร์:
+    
+    ```bash
+    cd Software-Design-and-Development-Booking-App-Demo/hotel-booking-system/backend
+    npm start
+    ```
+    
+3.  **เริ่มต้น Frontend:**
+    
+    ไปยังไดเรกทอรี `frontend` และเริ่มต้นแอปพลิเคชัน:
+    
+    ```bash
+    cd Software-Design-and-Development-Booking-App-Demo/hotel-booking-system/frontend
+    npm run dev
+    ```
+    
+    หากพบข้อผิดพลาด `sh: vite: command not found` ให้รันคำสั่ง:
+    
+    ```bash
+    npm install vite --save-dev
+    ```
+    
+    จากนั้นรัน `npm run dev` อีกครั้ง
+    
+4.  **เปิดแอปพลิเคชัน:**
+    
+    เปิดเว็บเบราว์เซอร์และไปยัง `http://localhost:5173/` เพื่อเข้าถึงแอปพลิเคชัน
+    
+5.  **เข้าสู่ระบบ Admin:**
+    
+    ไปยัง `http://localhost:5173/admin` เพื่อเข้าสู่ระบบผู้ดูแลระบบ
+    
+    * Username: `admin`
+    * Password: `admin123`
+
+## Ex
+
+* ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Node.js และ npm (Node Package Manager) ก่อนที่จะเริ่มใช้งาน
+* หากมีปัญหาในการติดตั้ง dependencies ให้ลองลบ `node_modules` และ `package-lock.json` แล้วรัน `npm install` ใหม่อีกครั้ง
+* หากมีปัญหาในการรันโปรแกรมให้ตรวจสอบ version ของ node.js และ npm ว่าเป็น version ที่รองรับหรือไม่
+* หากยังพบปัญหาอยู่ กรุณาแจ้งปัญหาไว้ใน repository ของ GitHub
+
 # สารบัญการทดลอง
 ## ทฤษฎีที่เกี่ยวข้องกับการพัฒนาส่วน Back-end
   - [1. REST API](booking-web-application-demo.md#1-rest-api)
