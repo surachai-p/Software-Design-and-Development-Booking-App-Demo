@@ -531,6 +531,8 @@ app.listen(port, () => {
 ### บันทึกผลลัพธ์การ Get ข้อมูล
 
 ![รูปผลลัพธ์การ Get ข้อมูล](images path/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-03-05 เวลา 11 30 12" src="https://github.com/user-attachments/assets/2a21717e-26dc-45eb-bd87-8a86f98ca1e7" />
+
 
 ### กรณีผลลัพธ์แจ้ง "error":"Token ไม่ถูกต้องหรือหมดอายุ" ให้ทำการ Login ใหม่ แล้วคัดลอก Token ที่ได้เพื่อเปลี่ยนค่าใน variable token
 
@@ -542,6 +544,8 @@ app.listen(port, () => {
 ### บันทึกผลลัพธ์การ Get ข้อมูลโดยระบุ ID
 
 ![รูปผลลัพธ์การ Get ข้อมูลโดยระบุ ID](images path/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-03-05 เวลา 11 33 28" src="https://github.com/user-attachments/assets/024039f4-e836-439a-a02f-686c524f277c" />
+
 
 8. สร้าง request เพื่อ Update Booking ระบุ Url คือ PUT: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
