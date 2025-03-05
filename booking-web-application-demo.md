@@ -1978,6 +1978,8 @@ export default BookingEdit;
    
 ### บันทึกผลการทดลอง
 ![ผลการแก้ไขข้อมูลการจอง](./image-path/image.png)
+![image](https://github.com/user-attachments/assets/55b3cf2a-8c52-44ea-93c2-0909f682999f)
+
 
 ### 3.2.8 AdminDashboard Component
 
