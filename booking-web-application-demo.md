@@ -563,15 +563,17 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ DELETE
 
-![รูปผลลัพธ์การ delete ข้อมูล](images path/image.png)
+![image](https://github.com/user-attachments/assets/7bdcc987-bcd4-4dab-876f-1eb995367b22)
+
 
 9.1 ปรับปรุงแก้ไขโค้ดเพื่อให้แสดงผลการลบเป็น status : "ลบข้อมูลสำเร็จโดย [ชื่อนักศึกษา]"
 ดังรูป
-![ผลการลบข้อมูล](images/postman-deleted-with-status.png)
+![image](https://github.com/user-attachments/assets/fe77df16-573c-4498-a1bc-280ee0dde271)
+
 
 ### บันทึกผลลัพธ์การ DELETE with status
 
-![รูปผลลัพธ์การ Delete ข้อมูล](images path/image.png)
+![image-3](https://github.com/user-attachments/assets/e4fce2b0-64f1-4573-9339-a2f082829e89)
 
 
 
