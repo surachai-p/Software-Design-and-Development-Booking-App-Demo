@@ -539,8 +539,8 @@ app.listen(port, () => {
 ### /1 คือหมายเลข ID ที่ต้องการ
 
 ### บันทึกผลลัพธ์การ Get ข้อมูลโดยระบุ ID
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-03-05 เวลา 11 34 45" src="https://github.com/user-attachments/assets/2733e57c-1b60-47df-a85f-e5da51beaf15" />
 
-![รูปผลลัพธ์การ Get ข้อมูลโดยระบุ ID](images path/image.png)
 
 8. สร้าง request เพื่อ Update Booking ระบุ Url คือ PUT: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
