@@ -500,10 +500,12 @@ app.listen(port, () => {
 }
 ```
 
-![ทดสอบ Login](images/postman-login.png)
+![Screenshot 2025-03-05 231304](https://github.com/user-attachments/assets/92e7df1a-8474-4184-bee1-090177d78f61)
+
 
 4. เพิ่ม variable ชื่อ token โดยคัดลอก token ที่ได้จากขั้นตอนการ Login
-   ![เพิ่ม Token](images/postman-addtoken.png)
+   ![Screenshot 2025-03-05 231404](https://github.com/user-attachments/assets/c44c3d86-db94-47ac-a9f3-a76b31f6a9da)
+
 
 5. สร้าง request เพื่อทดสอบเพิ่มข้อมูลการจอง ระบุ Url คือ POST: {{baseUrl}}/api/bookings โดยระบุข้อมูลดังนี้
 
@@ -541,7 +543,8 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ Get ข้อมูลโดยระบุ ID
 
-![รูปผลลัพธ์การ Get ข้อมูลโดยระบุ ID](images path/image.png)
+![Screenshot 2025-03-05 194752](https://github.com/user-attachments/assets/1bc5e58e-11b7-48d4-bd38-e5fd00c80356)
+
 
 8. สร้าง request เพื่อ Update Booking ระบุ Url คือ PUT: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
@@ -553,14 +556,15 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ PUT เพื่อแก้ไขข้อมูล (ข้อมูล comment จะต้องไม่เป็นค่า null)
 
-![รูปผลลัพธ์การ PUT ข้อมูล](images path/image.png)
+![Screenshot 2025-03-05 200732](https://github.com/user-attachments/assets/69aaffb0-5289-486b-8850-42359055efdc)
+
 
 9. สร้าง request เพื่อ Delete Booking ระบุ Url คือ DELETE: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
 
 ### บันทึกผลลัพธ์การ DELETE
 
-![รูปผลลัพธ์การ delete ข้อมูล](images path/image.png)
+![Screenshot 2025-03-05 201106](https://github.com/user-attachments/assets/312134dc-2dc7-4614-94b9-aeaa546ba83a)
 
 9.1 ปรับปรุงแก้ไขโค้ดเพื่อให้แสดงผลการลบเป็น status : "ลบข้อมูลสำเร็จโดย [ชื่อนักศึกษา]"
 ดังรูป
@@ -568,7 +572,7 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ DELETE with status
 
-![รูปผลลัพธ์การ Delete ข้อมูล](images path/image.png)
+![Screenshot 2025-03-05 203629](https://github.com/user-attachments/assets/cbcac55e-2297-475a-b32d-8cd7ca7a8169)
 
 
 
@@ -1040,7 +1044,7 @@ npm run dev
 ```
 1.1 กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน 
 #### บันทึกผลการรัน
-![รูปผลการรันหน้า front-end](./image-path/image.png)
+![Screenshot 2025-03-05 205210](https://github.com/user-attachments/assets/eb9f88e4-0c6d-4db9-8e59-253566b419fd)
 1.2 กด Ctrl + c เพื่อยกเลิกการทำงาน
 
 2. ติดตั้ง dependencies ที่จำเป็น:
@@ -1153,12 +1157,13 @@ export default App;
 ```
 2) ทดสอบรัน โดยพิมพ์คำสั่ง npm run dev แล้วบันทึกหน้าผลการรัน
 #### บันทึกรูปผลการรัน
-![ผลการรัน](./image path/image.png)
+![Screenshot 2025-03-05 211254](https://github.com/user-attachments/assets/54d405f4-3082-49a2-b523-d11cbd8faa9c)
+
 
 3) กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน แล้วตรวจสอบ error โดยไม่ต้องหยุดการทำงานของ Application
 #### บันทึกผลการรัน
 ```html
-บันทึกสาเหตุที่ทำให้เกิด error ที่นี่
+บันทึกสาเหตุที่ทำให้เกิด error คือไฟล์ BookingForm.jsx หรือ BookingForm.js ไม่มีอยู่ในที่ที่กำหนด
 ```
 ### 3.2.2 BookingForm Component
 1) สร้างไฟล์ `src/components/BookingForm.jsx`:
@@ -1442,7 +1447,8 @@ export default BookingForm;
 ![หน้าจองห้องพัก](images/front-booking.png)
 3) ทดสอบป้อนข้อมูลการจอง โดยระบุชื่อผู้จองเป็นชื่อนักศึกษา และบันทึกผลการทดลองที่มีหน้าสรุปการจอง
 #### บันทึกผลการทดลอง
-![รูปหน้าจองห้องพัก ที่แสดงข้อมูลสรุปการจอง](images-path/image.png)
+![Screenshot 2025-03-05 223906](https://github.com/user-attachments/assets/7ad54594-fb14-434a-b66e-6fc285087f82)
+
 
 4) ใช้ Postman  ตรวจสอบว่ามีข้อมูลการจองเพิ่มไปหรือไม่ (หาก token หมดอายุ ต้องทำการ Login แล้วเปลี่ยนค่า token ใหม่)
 
@@ -1821,7 +1827,8 @@ export default App;
 4) ทำการ Login ด้วย user: admin  password: admin123  หากระบบทำงานถูกต้อง จะแสดงรายการจองห้องพัก
 
 ### บันทึกผลการทดลอง 
-![รูปรายการจองห้องพัก](images-path/image.png)
+![Screenshot 2025-03-05 225227](https://github.com/user-attachments/assets/2ca31477-5767-4053-a3c5-faa0fc4fd29b)
+
    
    
 
@@ -1950,7 +1957,8 @@ export default BookingEdit;
 5) แก้ไขข้อมูลการจองและบันทึกรูปผลการทดลอง
    
 ### บันทึกผลการทดลอง
-![ผลการแก้ไขข้อมูลการจอง](./image-path/image.png)
+![Screenshot 2025-03-05 230331](https://github.com/user-attachments/assets/9f8120c8-56b4-45d8-87bc-fb3d5cd22308)
+
 
 ### 3.2.8 AdminDashboard Component
 
@@ -2012,6 +2020,7 @@ export default AdminDashboard;
 
 3) บันทึกผลการทดลอง เมื่อกดปุ่ม "สำหรับผู้ดูแลระบบ"
    ### บันทึกผลการทดลอง
-![ผลการแก้ไขข้อมูลการจอง](image-path/image.png)
+![Screenshot 2025-03-05 230542](https://github.com/user-attachments/assets/9c602096-b3f2-4aa4-98ec-3c14a1a289f0)
+
 
 
