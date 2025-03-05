@@ -1045,7 +1045,9 @@ npm run dev
 ```
 1.1 กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน 
 #### บันทึกผลการรัน
-![รูปผลการรันหน้า front-end](./image-path/image.png)
+
+![Screenshot 2025-03-05 224202](https://github.com/user-attachments/assets/e027086d-d8bb-4cfa-83e2-4d3fe252729b)
+
 1.2 กด Ctrl + c เพื่อยกเลิกการทำงาน
 
 2. ติดตั้ง dependencies ที่จำเป็น:
@@ -1447,7 +1449,8 @@ export default BookingForm;
 ![หน้าจองห้องพัก](images/front-booking.png)
 3) ทดสอบป้อนข้อมูลการจอง โดยระบุชื่อผู้จองเป็นชื่อนักศึกษา และบันทึกผลการทดลองที่มีหน้าสรุปการจอง
 #### บันทึกผลการทดลอง
-![รูปหน้าจองห้องพัก ที่แสดงข้อมูลสรุปการจอง](images-path/image.png)
+
+![Screenshot 2025-03-05 224133](https://github.com/user-attachments/assets/4683763b-534f-4077-a085-d0c4be93bbd7)
 
 4) ใช้ Postman  ตรวจสอบว่ามีข้อมูลการจองเพิ่มไปหรือไม่ (หาก token หมดอายุ ต้องทำการ Login แล้วเปลี่ยนค่า token ใหม่)
 
@@ -1825,7 +1828,7 @@ export default App;
 3) ทดสอบกดเมนู "สำหรับผู้ดูแลระบบ" จะปรากฎหน้าต่าง Login 
 4) ทำการ Login ด้วย user: admin  password: admin123  หากระบบทำงานถูกต้อง จะแสดงรายการจองห้องพัก
 
-### บันทึกผลการทดลอง 
+
 ![รูปรายการจองห้องพัก](images-path/image.png)
    
    
@@ -1955,7 +1958,8 @@ export default BookingEdit;
 5) แก้ไขข้อมูลการจองและบันทึกรูปผลการทดลอง
    
 ### บันทึกผลการทดลอง
-![ผลการแก้ไขข้อมูลการจอง](./image-path/image.png)
+
+![image1](https://github.com/user-attachments/assets/1905cad8-271c-4e37-86db-1eeb51fd6852)
 
 ### 3.2.8 AdminDashboard Component
 
@@ -2017,6 +2021,8 @@ export default AdminDashboard;
 
 3) บันทึกผลการทดลอง เมื่อกดปุ่ม "สำหรับผู้ดูแลระบบ"
    ### บันทึกผลการทดลอง
-![ผลการแก้ไขข้อมูลการจอง](image-path/image.png)
+
+![image](https://github.com/user-attachments/assets/312f0d6b-cd41-4362-8c44-7b76c5f75fe5)
+
 
 
