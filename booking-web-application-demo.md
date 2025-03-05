@@ -1046,6 +1046,8 @@ npm run dev
 1.1 กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน 
 #### บันทึกผลการรัน
 ![รูปผลการรันหน้า front-end](./image-path/image.png)
+![image](https://github.com/user-attachments/assets/bd38a7af-37a3-4cfc-94d4-f510a5b6249a)
+
 1.2 กด Ctrl + c เพื่อยกเลิกการทำงาน
 
 2. ติดตั้ง dependencies ที่จำเป็น:
@@ -1057,6 +1059,8 @@ npm install -D tailwindcss@3 postcss autoprefixer
 #### axios คืออะไร ?
 ```html
   axios คืออะไร เขียนคำตอบที่นี่
+Axios คือไลบรารี JavaScript ที่ใช้สำหรับทำ HTTP Requests (เช่น GET, POST, PUT, DELETE) ไปยังเซิร์ฟเวอร์ โดยรองรับทั้ง Browser และ Node.js
+ถูกใช้แทน fetch API เนื่องจากมีฟีเจอร์ที่ใช้งานง่าย
 ```
 3. ตั้งค่า Tailwind CSS:
 
@@ -1159,11 +1163,17 @@ export default App;
 2) ทดสอบรัน โดยพิมพ์คำสั่ง npm run dev แล้วบันทึกหน้าผลการรัน
 #### บันทึกรูปผลการรัน
 ![ผลการรัน](./image path/image.png)
+![image](https://github.com/user-attachments/assets/d6fbc539-316e-4991-8ff3-c3230724e6fb)
 
 3) กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน แล้วตรวจสอบ error โดยไม่ต้องหยุดการทำงานของ Application
 #### บันทึกผลการรัน
 ```html
 บันทึกสาเหตุที่ทำให้เกิด error ที่นี่
+1. ไฟล์ BookingForm.jsx ไม่มีอยู่จริง
+2. ชื่อไฟล์ไม่ตรงกัน (Case Sensitive)
+3. Path การ Import ไม่ถูกต้อง
+4. ไฟล์ BookingForm.jsx ไม่มี export default
+5. ปัญหาจาก Vite Cache
 ```
 ### 3.2.2 BookingForm Component
 1) สร้างไฟล์ `src/components/BookingForm.jsx`:
@@ -1448,6 +1458,8 @@ export default BookingForm;
 3) ทดสอบป้อนข้อมูลการจอง โดยระบุชื่อผู้จองเป็นชื่อนักศึกษา และบันทึกผลการทดลองที่มีหน้าสรุปการจอง
 #### บันทึกผลการทดลอง
 ![รูปหน้าจองห้องพัก ที่แสดงข้อมูลสรุปการจอง](images-path/image.png)
+![image](https://github.com/user-attachments/assets/d75def78-f9ae-45ec-8d31-caa3c44fee42)
+
 
 4) ใช้ Postman  ตรวจสอบว่ามีข้อมูลการจองเพิ่มไปหรือไม่ (หาก token หมดอายุ ต้องทำการ Login แล้วเปลี่ยนค่า token ใหม่)
 
@@ -1827,7 +1839,8 @@ export default App;
 
 ### บันทึกผลการทดลอง 
 ![รูปรายการจองห้องพัก](images-path/image.png)
-   
+   ![image](https://github.com/user-attachments/assets/7526b5e2-4db0-45af-bf02-d9c634744b72)
+
    
 
 ### 3.2.7 BookingEdit Component
