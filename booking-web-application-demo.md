@@ -529,8 +529,7 @@ app.listen(port, () => {
   ![Get all booking](images/postman-getall.png)
 
 ### บันทึกผลลัพธ์การ Get ข้อมูล
-
-![รูปผลลัพธ์การ Get ข้อมูล](images path/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-03-05 เวลา 11 32 08" src="https://github.com/user-attachments/assets/a14b9489-bf2b-4479-bd37-d54fabf6cf73" />
 
 ### กรณีผลลัพธ์แจ้ง "error":"Token ไม่ถูกต้องหรือหมดอายุ" ให้ทำการ Login ใหม่ แล้วคัดลอก Token ที่ได้เพื่อเปลี่ยนค่าใน variable token
 
@@ -540,8 +539,8 @@ app.listen(port, () => {
 ### /1 คือหมายเลข ID ที่ต้องการ
 
 ### บันทึกผลลัพธ์การ Get ข้อมูลโดยระบุ ID
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-03-05 เวลา 11 34 45" src="https://github.com/user-attachments/assets/2733e57c-1b60-47df-a85f-e5da51beaf15" />
 
-![รูปผลลัพธ์การ Get ข้อมูลโดยระบุ ID](images path/image.png)
 
 8. สร้าง request เพื่อ Update Booking ระบุ Url คือ PUT: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
@@ -552,25 +551,18 @@ app.listen(port, () => {
 ### 8.1 comment จะยังไม่ถูกปรับปรุงแก้ไข ให้ทำการแก้ไขโค้ดส่วนของการ update แล้วรันโปรแกรมใหม่อีกครั้งเพื่อทดสอบการแก้ไข
 
 ### บันทึกผลลัพธ์การ PUT เพื่อแก้ไขข้อมูล (ข้อมูล comment จะต้องไม่เป็นค่า null)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-03-05 เวลา 12 44 14" src="https://github.com/user-attachments/assets/8635455f-bc93-48ee-8cb8-80be60b1460e" />
 
-![รูปผลลัพธ์การ PUT ข้อมูล](images path/image.png)
 
 9. สร้าง request เพื่อ Delete Booking ระบุ Url คือ DELETE: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
 
 ### บันทึกผลลัพธ์การ DELETE
-
-![รูปผลลัพธ์การ delete ข้อมูล](images path/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-03-05 เวลา 12 50 36" src="https://github.com/user-attachments/assets/eead812f-1d01-4048-a2d3-8bf968f907a0" />
 
 9.1 ปรับปรุงแก้ไขโค้ดเพื่อให้แสดงผลการลบเป็น status : "ลบข้อมูลสำเร็จโดย [ชื่อนักศึกษา]"
 ดังรูป
-![ผลการลบข้อมูล](images/postman-deleted-with-status.png)
-
-### บันทึกผลลัพธ์การ DELETE with status
-
-![รูปผลลัพธ์การ Delete ข้อมูล](images path/image.png)
-
-
+![ภาพถ่ายหน้าจอ 2568-03-05 เวลา 13 15 44](https://github.com/user-attachments/assets/66eba9ea-efa9-4d3f-ba58-9e6d9c486bfe)
 
 ## ทฤษฎีที่เกี่ยวข้องกับการพัฒนาส่วน Front-end ด้วย React
 ### 1. React
@@ -1040,7 +1032,9 @@ npm run dev
 ```
 1.1 กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน 
 #### บันทึกผลการรัน
-![รูปผลการรันหน้า front-end](./image-path/image.png)
+
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-03-05 เวลา 13 19 53" src="https://github.com/user-attachments/assets/7154f75e-0511-4e8f-8201-640cf1aecab5" />
+
 1.2 กด Ctrl + c เพื่อยกเลิกการทำงาน
 
 2. ติดตั้ง dependencies ที่จำเป็น:
@@ -1051,7 +1045,7 @@ npm install -D tailwindcss@3 postcss autoprefixer
 ```
 #### axios คืออะไร ?
 ```html
-  axios คืออะไร เขียนคำตอบที่นี่
+  axios คืออะไร ลบรารี JavaScript ที่ใช้สำหรับส่ง HTTP Requests ไปยังเซิร์ฟเวอร์ได้ง่ายๆ รองรับ Promise และทำงานได้ทั้ง Browser และ Node.js
 ```
 3. ตั้งค่า Tailwind CSS:
 
@@ -1153,12 +1147,12 @@ export default App;
 ```
 2) ทดสอบรัน โดยพิมพ์คำสั่ง npm run dev แล้วบันทึกหน้าผลการรัน
 #### บันทึกรูปผลการรัน
-![ผลการรัน](./image path/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-03-05 เวลา 13 27 47" src="https://github.com/user-attachments/assets/f2accfe0-cab9-4f83-bf0f-39ed3fcbcfe2" />
 
 3) กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน แล้วตรวจสอบ error โดยไม่ต้องหยุดการทำงานของ Application
 #### บันทึกผลการรัน
 ```html
-บันทึกสาเหตุที่ทำให้เกิด error ที่นี่
+ไม่มีไฟล์ BookingForm
 ```
 ### 3.2.2 BookingForm Component
 1) สร้างไฟล์ `src/components/BookingForm.jsx`:
@@ -1442,7 +1436,8 @@ export default BookingForm;
 ![หน้าจองห้องพัก](images/front-booking.png)
 3) ทดสอบป้อนข้อมูลการจอง โดยระบุชื่อผู้จองเป็นชื่อนักศึกษา และบันทึกผลการทดลองที่มีหน้าสรุปการจอง
 #### บันทึกผลการทดลอง
-![รูปหน้าจองห้องพัก ที่แสดงข้อมูลสรุปการจอง](images-path/image.png)
+
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-03-05 เวลา 13 31 06" src="https://github.com/user-attachments/assets/3d8e2a2e-7970-4fb0-902d-ce1c9d21e907" />
 
 4) ใช้ Postman  ตรวจสอบว่ามีข้อมูลการจองเพิ่มไปหรือไม่ (หาก token หมดอายุ ต้องทำการ Login แล้วเปลี่ยนค่า token ใหม่)
 
@@ -1821,8 +1816,8 @@ export default App;
 4) ทำการ Login ด้วย user: admin  password: admin123  หากระบบทำงานถูกต้อง จะแสดงรายการจองห้องพัก
 
 ### บันทึกผลการทดลอง 
-![รูปรายการจองห้องพัก](images-path/image.png)
-   
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-03-05 เวลา 13 44 06" src="https://github.com/user-attachments/assets/1637baae-571e-43e3-8983-13775c0bcc17" />
+
    
 
 ### 3.2.7 BookingEdit Component
@@ -1950,7 +1945,8 @@ export default BookingEdit;
 5) แก้ไขข้อมูลการจองและบันทึกรูปผลการทดลอง
    
 ### บันทึกผลการทดลอง
-![ผลการแก้ไขข้อมูลการจอง](./image-path/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-03-05 เวลา 13 51 53" src="https://github.com/user-attachments/assets/80d5d773-16d7-4e4f-80e0-a17726633e3f" />
+
 
 ### 3.2.8 AdminDashboard Component
 
@@ -2012,6 +2008,6 @@ export default AdminDashboard;
 
 3) บันทึกผลการทดลอง เมื่อกดปุ่ม "สำหรับผู้ดูแลระบบ"
    ### บันทึกผลการทดลอง
-![ผลการแก้ไขข้อมูลการจอง](image-path/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-03-05 เวลา 13 56 56" src="https://github.com/user-attachments/assets/90ff72b3-4210-4503-bba1-28a45f033336" />
 
 
