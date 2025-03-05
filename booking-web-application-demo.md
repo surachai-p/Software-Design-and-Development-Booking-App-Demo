@@ -564,12 +564,6 @@ app.listen(port, () => {
 ดังรูป
 ![ภาพถ่ายหน้าจอ 2568-03-05 เวลา 13 15 44](https://github.com/user-attachments/assets/66eba9ea-efa9-4d3f-ba58-9e6d9c486bfe)
 
-### บันทึกผลลัพธ์การ DELETE with status
-
-![รูปผลลัพธ์การ Delete ข้อมูล](images path/image.png)
-
-
-
 ## ทฤษฎีที่เกี่ยวข้องกับการพัฒนาส่วน Front-end ด้วย React
 ### 1. React
 React เป็น JavaScript Library ที่พัฒนาโดย Facebook ใช้สำหรับสร้าง User Interface (UI) โดยมีแนวคิดหลักคือการแบ่ง UI ออกเป็นส่วนย่อยๆ เรียกว่า Components
