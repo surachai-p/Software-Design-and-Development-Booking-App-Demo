@@ -558,6 +558,8 @@ app.listen(port, () => {
 ### บันทึกผลลัพธ์การ PUT เพื่อแก้ไขข้อมูล (ข้อมูล comment จะต้องไม่เป็นค่า null)
 
 ![รูปผลลัพธ์การ PUT ข้อมูล](images path/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-03-05 เวลา 20 17 08" src="https://github.com/user-attachments/assets/9e941e89-788a-4bc6-aec1-7e4b1e6a59b7" />
+
 
 9. สร้าง request เพื่อ Delete Booking ระบุ Url คือ DELETE: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
@@ -565,6 +567,8 @@ app.listen(port, () => {
 ### บันทึกผลลัพธ์การ DELETE
 
 ![รูปผลลัพธ์การ delete ข้อมูล](images path/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-03-05 เวลา 20 45 31" src="https://github.com/user-attachments/assets/f89dd46b-fbed-46a7-bcb6-844d6479d702" />
+
 
 9.1 ปรับปรุงแก้ไขโค้ดเพื่อให้แสดงผลการลบเป็น status : "ลบข้อมูลสำเร็จโดย [ชื่อนักศึกษา]"
 ดังรูป
@@ -1045,6 +1049,8 @@ npm run dev
 1.1 กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน 
 #### บันทึกผลการรัน
 ![รูปผลการรันหน้า front-end](./image-path/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-03-05 เวลา 21 01 07" src="https://github.com/user-attachments/assets/c4e2f875-f224-485d-8df8-9e6789db296a" />
+
 1.2 กด Ctrl + c เพื่อยกเลิกการทำงาน
 
 2. ติดตั้ง dependencies ที่จำเป็น:
@@ -1056,6 +1062,7 @@ npm install -D tailwindcss@3 postcss autoprefixer
 #### axios คืออะไร ?
 ```html
   axios คืออะไร เขียนคำตอบที่นี่
+ไลบรารี JavaScript สำหรับทำ HTTP requests (เช่น GET, POST) ที่รองรับการทำงานทั้งในเบราว์เซอร์และ Node.js ใช้งานง่าย รองรับ Promise และช่วยจัดการข้อผิดพลาดได้ดี ตัวอย่างเช่น ใช้ส่งคำขอไปยังเซิร์ฟเวอร์และรับข้อมูลกลับมาในรูปแบบ JSON
 ```
 3. ตั้งค่า Tailwind CSS:
 
@@ -1158,11 +1165,19 @@ export default App;
 2) ทดสอบรัน โดยพิมพ์คำสั่ง npm run dev แล้วบันทึกหน้าผลการรัน
 #### บันทึกรูปผลการรัน
 ![ผลการรัน](./image path/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-03-05 เวลา 21 18 17" src="https://github.com/user-attachments/assets/baf49580-9e6d-46f6-8011-4f5670b9fd8a" />
+
 
 3) กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน แล้วตรวจสอบ error โดยไม่ต้องหยุดการทำงานของ Application
 #### บันทึกผลการรัน
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-03-05 เวลา 21 19 10" src="https://github.com/user-attachments/assets/9187e527-5692-4618-b243-86f6c2409c9e" />
+
 ```html
 บันทึกสาเหตุที่ทำให้เกิด error ที่นี่
+1. ไฟล์ไม่มีอยู่จริง หรืออยู่ในตำแหน่งผิด
+2. ชื่อไฟล์ผิด หรือสะกดไม่ตรงกับการนำเข้า (case-sensitive)
+3. เส้นทางการนำเข้าผิด (ไฟล์อยู่ในโฟลเดอร์หรือที่อื่น)
+4. นามสกุลไฟล์ผิด (เช่น ใช้ .js แทน .jsx)
 ```
 ### 3.2.2 BookingForm Component
 1) สร้างไฟล์ `src/components/BookingForm.jsx`:
