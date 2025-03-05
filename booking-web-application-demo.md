@@ -2032,4 +2032,5 @@ export default AdminDashboard;
    ### บันทึกผลการทดลอง
 ![ผลการแก้ไขข้อมูลการจอง](image-path/image.png)
 
+![image](https://github.com/user-attachments/assets/87026aef-234c-4971-b1a9-c6b78a3e9f4f)
 
