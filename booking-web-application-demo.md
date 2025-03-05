@@ -551,7 +551,8 @@ app.listen(port, () => {
 ### 8.1 comment จะยังไม่ถูกปรับปรุงแก้ไข ให้ทำการแก้ไขโค้ดส่วนของการ update แล้วรันโปรแกรมใหม่อีกครั้งเพื่อทดสอบการแก้ไข
 
 ### บันทึกผลลัพธ์การ PUT เพื่อแก้ไขข้อมูล (ข้อมูล comment จะต้องไม่เป็นค่า null)
-![Uploading ภาพถ่ายหน้าจอ 2568-03-05 เวลา 12.44.14.png…]()
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-03-05 เวลา 12 44 14" src="https://github.com/user-attachments/assets/8635455f-bc93-48ee-8cb8-80be60b1460e" />
+
 
 9. สร้าง request เพื่อ Delete Booking ระบุ Url คือ DELETE: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
