@@ -558,8 +558,7 @@ app.listen(port, () => {
    - Headers: Authorization: Bearer {{token}}
 
 ### บันทึกผลลัพธ์การ DELETE
-
-![รูปผลลัพธ์การ delete ข้อมูล](images path/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-03-05 เวลา 12 50 36" src="https://github.com/user-attachments/assets/eead812f-1d01-4048-a2d3-8bf968f907a0" />
 
 9.1 ปรับปรุงแก้ไขโค้ดเพื่อให้แสดงผลการลบเป็น status : "ลบข้อมูลสำเร็จโดย [ชื่อนักศึกษา]"
 ดังรูป
