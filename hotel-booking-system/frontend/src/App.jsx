@@ -1,9 +1,16 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { AuthProvider } from "./contexts/AuthContext";
 import BookingForm from "./components/BookingForm";
+import BookingList from "./components/BookingList";
+import ProtectedRoute from "./components/ProtectedRoute";
+import Login from "./components/Login";
+import BookingEdit from "./components/BookingEdit";
+import AdminDashboard from "./components/AdminDashboard";
 
 function App() {
   return (
+    <AuthProvider>
       <Router>
         <div className="min-h-screen bg-gray-100">
           {/* Navigation */}
@@ -23,6 +30,12 @@ function App() {
                   >
                     จองห้องพัก
                   </Link>
+                  <Link
+                    to="/admin"
+                    className="text-gray-600 hover:text-gray-900"
+                  >
+                    สำหรับผู้ดูแล
+                  </Link>
                 </div>
               </div>
             </div>
@@ -32,10 +45,35 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/booking" element={<BookingForm />} />
-          </Routes>  
+            <Route path="/login" element={<Login />} />
+            <Route
+              path="/admin"
+              element={
+                <ProtectedRoute>
+                  <AdminDashboard />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/admin/bookings"
+              element={
+                <ProtectedRoute>
+                  <BookingList />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/admin/bookings/edit/:id"
+              element={
+                <ProtectedRoute>
+                  <BookingEdit />
+                </ProtectedRoute>
+              }
+            />
+          </Routes>
         </div>
       </Router>
-
+    </AuthProvider>
   );
 }
 
