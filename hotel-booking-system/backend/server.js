@@ -140,12 +140,12 @@ app.get("/api/bookings/:id", authenticateToken, (req, res) => {
 
 // อัพเดตข้อมูลการจอง (ต้องมีข้อมูฃการ login)
 app.put("/api/bookings/:id", authenticateToken, (req, res) => {
-  const { fullname, email, phone, checkin, checkout, roomtype, guests } =
+  const { fullname, email, phone, checkin, checkout, roomtype, guests,comment} =
     req.body;
 
   const sql = `UPDATE bookings 
                  SET fullname = ?, email = ?, phone = ?, 
-                     checkin = ?, checkout = ?, roomtype = ?, guests = ?
+                     checkin = ?, checkout = ?, roomtype = ?, guests = ? ,comment = ?
                  WHERE id = ?`;
 
   db.run(
@@ -158,6 +158,7 @@ app.put("/api/bookings/:id", authenticateToken, (req, res) => {
       checkout,
       roomtype,
       guests,
+      comment,
       req.params.id,
     ],
     function (err) {
@@ -193,7 +194,10 @@ app.delete("/api/bookings/:id", authenticateToken, (req, res) => {
     if (this.changes === 0) {
       return res.status(404).json({ error: "ไม่พบข้อมูลการจอง" });
     }
-    res.status(204).send();
+
+    res.json({
+      status: `ลบข้อมูลสำเร็จโดย นายศิวาภัทร อุยสุย`,
+    });
   });
 });
 

@@ -553,14 +553,14 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ PUT เพื่อแก้ไขข้อมูล (ข้อมูล comment จะต้องไม่เป็นค่า null)
 
-![รูปผลลัพธ์การ PUT ข้อมูล](images path/image.png)
+![รูปผลลัพธ์การ PUT ข้อมูล](images/บันทึกผลการทดลอง/3.png)
 
 9. สร้าง request เพื่อ Delete Booking ระบุ Url คือ DELETE: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
 
 ### บันทึกผลลัพธ์การ DELETE
 
-![รูปผลลัพธ์การ delete ข้อมูล](images path/image.png)
+![รูปผลลัพธ์การ delete ข้อมูล](images/บันทึกผลการทดลอง/4.png)
 
 9.1 ปรับปรุงแก้ไขโค้ดเพื่อให้แสดงผลการลบเป็น status : "ลบข้อมูลสำเร็จโดย [ชื่อนักศึกษา]"
 ดังรูป
@@ -568,7 +568,7 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ DELETE with status
 
-![รูปผลลัพธ์การ Delete ข้อมูล](images path/image.png)
+![รูปผลลัพธ์การ Delete ข้อมูล](images/บันทึกผลการทดลอง/5.png)
 
 
 
@@ -1040,7 +1040,8 @@ npm run dev
 ```
 1.1 กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน 
 #### บันทึกผลการรัน
-![รูปผลการรันหน้า front-end](./image-path/image.png)
+![รูปผลการรันหน้า front-end](/images/บันทึกผลการทดลอง/6.png)
+
 1.2 กด Ctrl + c เพื่อยกเลิกการทำงาน
 
 2. ติดตั้ง dependencies ที่จำเป็น:
@@ -1051,7 +1052,7 @@ npm install -D tailwindcss@3 postcss autoprefixer
 ```
 #### axios คืออะไร ?
 ```html
-  axios คืออะไร เขียนคำตอบที่นี่
+  axios เป็นไลบรารี JavaScript ที่ใช้สำหรับ ทำ HTTP requests (GET, POST, PUT, DELETE ฯลฯ) ไปยัง API หรือเซิร์ฟเวอร์ โดยรองรับทั้ง Node.js และ Browser
 ```
 3. ตั้งค่า Tailwind CSS:
 
@@ -1158,7 +1159,7 @@ export default App;
 3) กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน แล้วตรวจสอบ error โดยไม่ต้องหยุดการทำงานของ Application
 #### บันทึกผลการรัน
 ```html
-บันทึกสาเหตุที่ทำให้เกิด error ที่นี่
+บันทึกสาเหตุที่ทำให้เกิด error คือไฟล์ BookingForm.jsx หรือ BookingForm.js ไม่มีอยู่ในที่ที่กำหนด
 ```
 ### 3.2.2 BookingForm Component
 1) สร้างไฟล์ `src/components/BookingForm.jsx`:
