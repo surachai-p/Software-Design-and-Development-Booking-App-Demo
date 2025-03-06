@@ -1460,6 +1460,7 @@ export default BookingForm;
 3) ทดสอบป้อนข้อมูลการจอง โดยระบุชื่อผู้จองเป็นชื่อนักศึกษา และบันทึกผลการทดลองที่มีหน้าสรุปการจอง
 #### บันทึกผลการทดลอง
 ![รูปหน้าจองห้องพัก ที่แสดงข้อมูลสรุปการจอง](images-path/image.png)
+![image](https://github.com/user-attachments/assets/ef231ff1-6392-4c64-ac93-93d6ea4a00af)
 
 4) ใช้ Postman  ตรวจสอบว่ามีข้อมูลการจองเพิ่มไปหรือไม่ (หาก token หมดอายุ ต้องทำการ Login แล้วเปลี่ยนค่า token ใหม่)
 
@@ -1839,6 +1840,7 @@ export default App;
 
 ### บันทึกผลการทดลอง 
 ![รูปรายการจองห้องพัก](images-path/image.png)
+![image](https://github.com/user-attachments/assets/a816c96d-be4d-4ed4-abf9-ed450d3999d0)
    
    
 
@@ -1968,6 +1970,7 @@ export default BookingEdit;
    
 ### บันทึกผลการทดลอง
 ![ผลการแก้ไขข้อมูลการจอง](./image-path/image.png)
+![image](https://github.com/user-attachments/assets/deba3d8e-880f-4d9f-b8de-199fe12a0b9d)
 
 ### 3.2.8 AdminDashboard Component
 
@@ -2030,5 +2033,6 @@ export default AdminDashboard;
 3) บันทึกผลการทดลอง เมื่อกดปุ่ม "สำหรับผู้ดูแลระบบ"
    ### บันทึกผลการทดลอง
 ![ผลการแก้ไขข้อมูลการจอง](image-path/image.png)
+![image](https://github.com/user-attachments/assets/d6573b6c-60dc-45dc-ab97-decf7a34a270)
 
 
