@@ -1046,6 +1046,8 @@ npm run dev
 1.1 กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน 
 #### บันทึกผลการรัน
 ![รูปผลการรันหน้า front-end](./image-path/image.png)
+![image](https://github.com/user-attachments/assets/f6b8202d-37e7-4a99-a685-a43dc99cbc2e)
+
 1.2 กด Ctrl + c เพื่อยกเลิกการทำงาน
 
 2. ติดตั้ง dependencies ที่จำเป็น:
@@ -1057,7 +1059,14 @@ npm install -D tailwindcss@3 postcss autoprefixer
 #### axios คืออะไร ?
 ```html
   axios คืออะไร เขียนคำตอบที่นี่
-```
+```Axios เป็นไลบรารี JavaScript ที่ใช้สำหรับ ทำ HTTP Requests (GET, POST, PUT, DELETE ฯลฯ) ไปยังเซิร์ฟเวอร์หรือ API ต่างๆ ได้ง่ายขึ้น
+คุณสมบัติเด่นของ Axios
+รองรับทั้ง Browser และ Node.js
+สามารถส่งข้อมูลในรูปแบบ JSON ได้ง่าย รองรับ async/await ทำให้โค้ดสะอาดขึ้น
+มีระบบจัดการ Timeout และ Cancel Request สามารถตั้งค่า Base URL และ Headersเองได้
+รองรับการดักจับข้อผิดพลาด (Error Handling) ได้ดี
+
+
 3. ตั้งค่า Tailwind CSS:
 
 ```bash
@@ -1159,12 +1168,15 @@ export default App;
 2) ทดสอบรัน โดยพิมพ์คำสั่ง npm run dev แล้วบันทึกหน้าผลการรัน
 #### บันทึกรูปผลการรัน
 ![ผลการรัน](./image path/image.png)
+![image](https://github.com/user-attachments/assets/7b9ba762-52b7-4fcd-82b6-dae1fd4764f1)
 
 3) กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน แล้วตรวจสอบ error โดยไม่ต้องหยุดการทำงานของ Application
 #### บันทึกผลการรัน
 ```html
 บันทึกสาเหตุที่ทำให้เกิด error ที่นี่
-```
+```Failed to resolve import "./App.jsx" from "src/main.jsx". Does the file exist?
+เหมือนจะimport App.jsx จาก main.jsxไม่ได้มั้งคับ
+
 ### 3.2.2 BookingForm Component
 1) สร้างไฟล์ `src/components/BookingForm.jsx`:
 
