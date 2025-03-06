@@ -531,6 +531,8 @@ app.listen(port, () => {
 ### บันทึกผลลัพธ์การ Get ข้อมูล
 
 ![รูปผลลัพธ์การ Get ข้อมูล](images path/image.png)
+![image](https://github.com/user-attachments/assets/fac97bc3-40ef-49cd-b2af-f5260d212c4c)
+
 
 ### กรณีผลลัพธ์แจ้ง "error":"Token ไม่ถูกต้องหรือหมดอายุ" ให้ทำการ Login ใหม่ แล้วคัดลอก Token ที่ได้เพื่อเปลี่ยนค่าใน variable token
 
@@ -542,6 +544,8 @@ app.listen(port, () => {
 ### บันทึกผลลัพธ์การ Get ข้อมูลโดยระบุ ID
 
 ![รูปผลลัพธ์การ Get ข้อมูลโดยระบุ ID](images path/image.png)
+![image](https://github.com/user-attachments/assets/bd50f3b5-8e53-434a-b51d-a5f5c71b9f79)
+
 
 8. สร้าง request เพื่อ Update Booking ระบุ Url คือ PUT: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
@@ -554,6 +558,8 @@ app.listen(port, () => {
 ### บันทึกผลลัพธ์การ PUT เพื่อแก้ไขข้อมูล (ข้อมูล comment จะต้องไม่เป็นค่า null)
 
 ![รูปผลลัพธ์การ PUT ข้อมูล](images path/image.png)
+![image](https://github.com/user-attachments/assets/fb33b4bc-5119-49c0-9ed1-44c8905a6e37)
+
 
 9. สร้าง request เพื่อ Delete Booking ระบุ Url คือ DELETE: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
@@ -561,6 +567,8 @@ app.listen(port, () => {
 ### บันทึกผลลัพธ์การ DELETE
 
 ![รูปผลลัพธ์การ delete ข้อมูล](images path/image.png)
+![image](https://github.com/user-attachments/assets/55be2ab0-1350-4261-9c2b-65915575a9fc)
+
 
 9.1 ปรับปรุงแก้ไขโค้ดเพื่อให้แสดงผลการลบเป็น status : "ลบข้อมูลสำเร็จโดย [ชื่อนักศึกษา]"
 ดังรูป
@@ -569,6 +577,8 @@ app.listen(port, () => {
 ### บันทึกผลลัพธ์การ DELETE with status
 
 ![รูปผลลัพธ์การ Delete ข้อมูล](images path/image.png)
+![image](https://github.com/user-attachments/assets/90b193ad-7b71-4aea-84f9-1133ea0d54d5)
+
 
 
 
@@ -1041,6 +1051,8 @@ npm run dev
 1.1 กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน 
 #### บันทึกผลการรัน
 ![รูปผลการรันหน้า front-end](./image-path/image.png)
+![image](https://github.com/user-attachments/assets/db655065-afd0-408c-ac06-b6b4fb2988ec)
+
 1.2 กด Ctrl + c เพื่อยกเลิกการทำงาน
 
 2. ติดตั้ง dependencies ที่จำเป็น:
@@ -1051,7 +1063,7 @@ npm install -D tailwindcss@3 postcss autoprefixer
 ```
 #### axios คืออะไร ?
 ```html
-  axios คืออะไร เขียนคำตอบที่นี่
+  axios ไลบรารี JavaScript ที่ใช้สำหรับทำ HTTP requests ในเว็บแอปพลิเคชัน สามารถใช้ได้ทั้งฝั่ง Frontend (เช่นกับ React, Vue, Angular) และ Backend (เช่นกับ Node.js)
 ```
 3. ตั้งค่า Tailwind CSS:
 
