@@ -577,6 +577,8 @@ app.listen(port, () => {
 ### บันทึกผลลัพธ์การ DELETE with status
 
 ![รูปผลลัพธ์การ Delete ข้อมูล](images path/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-03-07 เวลา 13 24 34" src="https://github.com/user-attachments/assets/9803b470-275c-4a84-a459-e64092fdfebe" />
+
 
 
 
@@ -1462,6 +1464,8 @@ export default BookingForm;
 3) ทดสอบป้อนข้อมูลการจอง โดยระบุชื่อผู้จองเป็นชื่อนักศึกษา และบันทึกผลการทดลองที่มีหน้าสรุปการจอง
 #### บันทึกผลการทดลอง
 ![รูปหน้าจองห้องพัก ที่แสดงข้อมูลสรุปการจอง](images-path/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-03-07 เวลา 13 18 53" src="https://github.com/user-attachments/assets/fc566cfe-721f-443f-ad16-44d53fa817dc" />
+
 
 4) ใช้ Postman  ตรวจสอบว่ามีข้อมูลการจองเพิ่มไปหรือไม่ (หาก token หมดอายุ ต้องทำการ Login แล้วเปลี่ยนค่า token ใหม่)
 
@@ -1841,6 +1845,8 @@ export default App;
 
 ### บันทึกผลการทดลอง 
 ![รูปรายการจองห้องพัก](images-path/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-03-07 เวลา 13 32 00" src="https://github.com/user-attachments/assets/235d0b05-dbd5-488f-a819-fc56871e1ff6" />
+
    
    
 
@@ -1970,6 +1976,8 @@ export default BookingEdit;
    
 ### บันทึกผลการทดลอง
 ![ผลการแก้ไขข้อมูลการจอง](./image-path/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-03-07 เวลา 13 42 52" src="https://github.com/user-attachments/assets/c7d9d1ad-dd3c-4e02-b865-5434beb96c99" />
+
 
 ### 3.2.8 AdminDashboard Component
 
@@ -2032,5 +2040,7 @@ export default AdminDashboard;
 3) บันทึกผลการทดลอง เมื่อกดปุ่ม "สำหรับผู้ดูแลระบบ"
    ### บันทึกผลการทดลอง
 ![ผลการแก้ไขข้อมูลการจอง](image-path/image.png)
+<img width="1440" alt="ภาพถ่ายหน้าจอ 2568-03-07 เวลา 13 45 27" src="https://github.com/user-attachments/assets/dd8f5aab-f274-4ebe-aeb0-35948474eee5" />
+
 
 
