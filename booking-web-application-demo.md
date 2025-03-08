@@ -1960,7 +1960,8 @@ export default BookingEdit;
 5) แก้ไขข้อมูลการจองและบันทึกรูปผลการทดลอง
    
 ### บันทึกผลการทดลอง
-![ผลการแก้ไขข้อมูลการจอง](./image-path/image.png)
+![![image](https://github.com/user-attachments/assets/43bad3c9-add3-4a31-9255-3e924a1262ad)]
+
 
 ### 3.2.8 AdminDashboard Component
 
