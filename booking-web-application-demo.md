@@ -1055,7 +1055,8 @@ npm install -D tailwindcss@3 postcss autoprefixer
 ```
 #### axios คืออะไร ?
 ```html
-  axios คืออะไร เขียนคำตอบที่นี่
+  axios คืออะไร Axios คือไลบรารี JavaScript ที่ใช้สำหรับการทำ HTTP requests จาก Node.jsหรือ Frontend Browser มันช่วยให้การเชื่อมต่อกับ API ง่ายขึ้น ด้วยคุณสมบัติการจัดการกับ Promises, การตั้งค่า headers, การรองรับการ cancel requests, และการใช้ interceptors สามารถใช้งานได้ทั้งในฝั่ง server และ client ทำให้การส่งและรับข้อมูลจาก API เป็นเรื่องง่ายและสะดวก
+
 ```
 3. ตั้งค่า Tailwind CSS:
 
