@@ -1450,7 +1450,8 @@ export default BookingForm;
 ![หน้าจองห้องพัก](images/front-booking.png)
 3) ทดสอบป้อนข้อมูลการจอง โดยระบุชื่อผู้จองเป็นชื่อนักศึกษา และบันทึกผลการทดลองที่มีหน้าสรุปการจอง
 #### บันทึกผลการทดลอง
-![รูปหน้าจองห้องพัก ที่แสดงข้อมูลสรุปการจอง](images-path/image.png)
+![![image](https://github.com/user-attachments/assets/a8a23bee-c2e2-4d32-ad65-937f3aef9e3d)]
+
 
 4) ใช้ Postman  ตรวจสอบว่ามีข้อมูลการจองเพิ่มไปหรือไม่ (หาก token หมดอายุ ต้องทำการ Login แล้วเปลี่ยนค่า token ใหม่)
 
