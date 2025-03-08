@@ -530,7 +530,8 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ Get ข้อมูล
 
-![รูปผลลัพธ์การ Get ข้อมูล](images path/image.png)
+![![image](https://github.com/user-attachments/assets/1a31b392-cef6-4a13-a082-48be0f43b795)]
+
 
 ### กรณีผลลัพธ์แจ้ง "error":"Token ไม่ถูกต้องหรือหมดอายุ" ให้ทำการ Login ใหม่ แล้วคัดลอก Token ที่ได้เพื่อเปลี่ยนค่าใน variable token
 
@@ -541,7 +542,8 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ Get ข้อมูลโดยระบุ ID
 
-![รูปผลลัพธ์การ Get ข้อมูลโดยระบุ ID](images path/image.png)
+![![image](https://github.com/user-attachments/assets/ae076d52-6863-4559-8900-2418b77e5a4f)]
+
 
 8. สร้าง request เพื่อ Update Booking ระบุ Url คือ PUT: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
@@ -553,7 +555,7 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ PUT เพื่อแก้ไขข้อมูล (ข้อมูล comment จะต้องไม่เป็นค่า null)
 
-![รูปผลลัพธ์การ PUT ข้อมูล](images path/image.png)
+![![image](https://github.com/user-attachments/assets/15ec1320-8122-4164-930e-3dda04e9864d)]
 
 9. สร้าง request เพื่อ Delete Booking ระบุ Url คือ DELETE: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
@@ -568,7 +570,8 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ DELETE with status
 
-![รูปผลลัพธ์การ Delete ข้อมูล](images path/image.png)
+![![image](https://github.com/user-attachments/assets/b0fbfcd6-9c7c-48dd-8606-ff9c70aba625)]
+
 
 
 
@@ -1040,7 +1043,8 @@ npm run dev
 ```
 1.1 กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน 
 #### บันทึกผลการรัน
-![รูปผลการรันหน้า front-end](./image-path/image.png)
+![![image](https://github.com/user-attachments/assets/c685430d-cc38-4868-9564-9dffcc5beb24)]
+
 1.2 กด Ctrl + c เพื่อยกเลิกการทำงาน
 
 2. ติดตั้ง dependencies ที่จำเป็น:
@@ -1051,7 +1055,8 @@ npm install -D tailwindcss@3 postcss autoprefixer
 ```
 #### axios คืออะไร ?
 ```html
-  axios คืออะไร เขียนคำตอบที่นี่
+  axios คืออะไร Axios คือไลบรารี JavaScript ที่ใช้สำหรับการทำ HTTP requests จาก Node.jsหรือ Frontend Browser มันช่วยให้การเชื่อมต่อกับ API ง่ายขึ้น ด้วยคุณสมบัติการจัดการกับ Promises, การตั้งค่า headers, การรองรับการ cancel requests, และการใช้ interceptors สามารถใช้งานได้ทั้งในฝั่ง server และ client ทำให้การส่งและรับข้อมูลจาก API เป็นเรื่องง่ายและสะดวก
+
 ```
 3. ตั้งค่า Tailwind CSS:
 
@@ -1153,12 +1158,15 @@ export default App;
 ```
 2) ทดสอบรัน โดยพิมพ์คำสั่ง npm run dev แล้วบันทึกหน้าผลการรัน
 #### บันทึกรูปผลการรัน
-![ผลการรัน](./image path/image.png)
+![![image](https://github.com/user-attachments/assets/54e65afd-bcfe-4805-b567-ba249b6f125d)]
+
 
 3) กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน แล้วตรวจสอบ error โดยไม่ต้องหยุดการทำงานของ Application
 #### บันทึกผลการรัน
 ```html
 บันทึกสาเหตุที่ทำให้เกิด error ที่นี่
+อาจเกิดจากหลายสาเหตุรวมกัน เช่น ไฟล์ BookingForm.jsx ไม่ได้อยู่ในไดเรกทอรี src/components, ชื่อไฟล์หรือเส้นทางที่ระบุในการนำเข้าไม่ตรงกับไฟล์จริง (กรณีตัวพิมพ์ใหญ่พิมพ์เล็กมีความสำคัญ), หรือไฟล์ที่นำเข้าอาจมีนามสกุลที่ผิด ตรวจสอบและแก้ไขตำแหน่งไฟล์ ชื่อไฟล์ และเส้นทางในไฟล์ App.jsx ให้ถูกต้องก็อาจจะแก้ไขปัญหานี้ได้
+
 ```
 ### 3.2.2 BookingForm Component
 1) สร้างไฟล์ `src/components/BookingForm.jsx`:
@@ -1442,7 +1450,8 @@ export default BookingForm;
 ![หน้าจองห้องพัก](images/front-booking.png)
 3) ทดสอบป้อนข้อมูลการจอง โดยระบุชื่อผู้จองเป็นชื่อนักศึกษา และบันทึกผลการทดลองที่มีหน้าสรุปการจอง
 #### บันทึกผลการทดลอง
-![รูปหน้าจองห้องพัก ที่แสดงข้อมูลสรุปการจอง](images-path/image.png)
+![![image](https://github.com/user-attachments/assets/a8a23bee-c2e2-4d32-ad65-937f3aef9e3d)]
+
 
 4) ใช้ Postman  ตรวจสอบว่ามีข้อมูลการจองเพิ่มไปหรือไม่ (หาก token หมดอายุ ต้องทำการ Login แล้วเปลี่ยนค่า token ใหม่)
 
@@ -1821,7 +1830,8 @@ export default App;
 4) ทำการ Login ด้วย user: admin  password: admin123  หากระบบทำงานถูกต้อง จะแสดงรายการจองห้องพัก
 
 ### บันทึกผลการทดลอง 
-![รูปรายการจองห้องพัก](images-path/image.png)
+![![image](https://github.com/user-attachments/assets/067725a8-ec26-4de7-9d0a-b058360899f8)]
+
    
    
 
@@ -1950,7 +1960,8 @@ export default BookingEdit;
 5) แก้ไขข้อมูลการจองและบันทึกรูปผลการทดลอง
    
 ### บันทึกผลการทดลอง
-![ผลการแก้ไขข้อมูลการจอง](./image-path/image.png)
+![![image](https://github.com/user-attachments/assets/43bad3c9-add3-4a31-9255-3e924a1262ad)]
+
 
 ### 3.2.8 AdminDashboard Component
 
@@ -2012,6 +2023,6 @@ export default AdminDashboard;
 
 3) บันทึกผลการทดลอง เมื่อกดปุ่ม "สำหรับผู้ดูแลระบบ"
    ### บันทึกผลการทดลอง
-![ผลการแก้ไขข้อมูลการจอง](image-path/image.png)
+![![image](https://github.com/user-attachments/assets/91d167d8-8cd5-4572-b98b-e6edc87b8607)]
 
 
