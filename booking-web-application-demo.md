@@ -1830,7 +1830,8 @@ export default App;
 4) ทำการ Login ด้วย user: admin  password: admin123  หากระบบทำงานถูกต้อง จะแสดงรายการจองห้องพัก
 
 ### บันทึกผลการทดลอง 
-![รูปรายการจองห้องพัก](images-path/image.png)
+![![image](https://github.com/user-attachments/assets/067725a8-ec26-4de7-9d0a-b058360899f8)]
+
    
    
 
